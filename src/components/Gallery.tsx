@@ -5,7 +5,6 @@ import type { Lang } from "../types.ts";
 export default function Gallery() {
     const { i18n } = useTranslation();
 
-    // ✅ SAFE language resolution
     const lang = ((i18n.resolvedLanguage ??
         i18n.language ??
         "en") as string).startsWith("fr")

@@ -91,10 +91,26 @@ body {
   color: #666;
   letter-spacing: 0.05em;
 }
+/* FOOTER SOCIAL */
 
-.footer-location {
-  margin-top: 0.5rem;
-  font-style: italic;
+.footer-social {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social a {
+  color: #666;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.footer-social a:hover {
+  color: #111;
+  transform: translateY(-1px);
+}
+
+.footer-social .instagram {
+  margin: 0 1rem;
 }
 
 /* CONTACT PAGE */

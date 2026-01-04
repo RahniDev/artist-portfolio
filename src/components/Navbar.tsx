@@ -1,21 +1,15 @@
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import LanguageToggle from "./LanguageToggle";
 
 export default function Navbar() {
-  const { t, i18n } = useTranslation();
-
-  const currentLang = i18n.language ?? "en";
-  const isFrench = currentLang.startsWith("fr");
-
-  const toggleLanguage = () => {
-    i18n.changeLanguage(isFrench ? "en" : "fr");
-  };
+  const { t } = useTranslation();
 
   return (
     <header className="navbar">
       <nav className="navbar-inner">
         <NavLink to="/" className="navbar-logo">
-          A.
+          SK
         </NavLink>
 
         <ul className="navbar-links">
@@ -25,29 +19,15 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about">
-              {t("navbar.about")}
-            </NavLink>
+            <NavLink to="/about">{t("navbar.about")}</NavLink>
           </li>
+          <li>          </li>
           <li>
-            <NavLink to="/gallery">
-              {t("navbar.gallery")}
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">
-              {t("navbar.contact")}
-            </NavLink>
+            <NavLink to="/contact">{t("navbar.contact")}</NavLink>
           </li>
         </ul>
 
-        <button
-          className="lang-toggle"
-          onClick={toggleLanguage}
-          aria-label="Toggle language"
-        >
-          {isFrench ? "EN" : "FR"}
-        </button>
+        <LanguageToggle />
       </nav>
     </header>
   );

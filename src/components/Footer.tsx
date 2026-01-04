@@ -1,18 +1,31 @@
-import { useTranslation } from "react-i18next";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
-  const { i18n } = useTranslation();
-  const lang = i18n.language ?? "en";
 
   return (
     <footer className="footer">
       <div className="footer-inner">
         <p>© {new Date().getFullYear()} — All works © the artist</p>
-        <p className="footer-location">
-          {lang.startsWith("fr")
-            ? "Présenté pour galeries à Paris et Londres"
-            : "Presented for galleries in Paris and London"}
-        </p>
+
+        <div className="footer-social">
+          <a
+            href="https://instagram.com/sakouji.art"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="instagram"
+          >
+            <FaInstagram size={20} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sakari"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <FaLinkedin size={20} />
+          </a>
+        </div>
       </div>
     </footer>
   );
