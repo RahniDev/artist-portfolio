@@ -4,6 +4,55 @@ body {
   margin: 0;
   padding: 0;
 }
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  font-family: "Georgia", serif;
+  color: #111;
+  line-height: 1.6;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+
+.about-intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.about-intro p {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 992px) {
+   .about {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-intro {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about-intro h1 {
+    font-size: 1.7rem;
+  }
+}
+
 
 .profile-circle {
   width: 220px;
