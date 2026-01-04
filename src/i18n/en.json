@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About the Artist",
+    "bio": "Bio text here..."
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}

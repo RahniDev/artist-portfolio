@@ -1,0 +1,46 @@
+import { useTranslation } from "react-i18next";
+
+export default function Contact() {
+  const { t, i18n } = useTranslation();
+  const lang = i18n.resolvedLanguage ?? "en";
+
+  return (
+    <section className="contact">
+      <div className="contact-inner">
+        <header className="contact-header">
+          <h2>{t("contact.title")}</h2>
+          <p>
+            {lang.startsWith("fr")
+              ? "Pour les galeries, conservateurs et commissaires d’exposition."
+              : "For galleries, curators, and exhibition inquiries."}
+          </p>
+        </header>
+
+        <form className="contact-form">
+          <div className="form-group">
+            <label htmlFor="name">
+              {lang.startsWith("fr") ? "Nom" : "Name"}
+            </label>
+            <input id="name" type="text" required />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input id="email" type="email" required />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="message">
+              {lang.startsWith("fr") ? "Message" : "Message"}
+            </label>
+            <textarea id="message" rows={5} required />
+          </div>
+
+          <button type="submit" className="contact-submit">
+            {lang.startsWith("fr") ? "Envoyer" : "Send"}
+          </button>
+        </form>
+      </div>
+    </section>
+  );
+}
