@@ -11,8 +11,9 @@ export default function About() {
         alt="Artist Portrait"
         className="profile-circle"
       />
-      <div className="about-intro">
+      <div className="about-text">
       <h1>{t("about.title")}</h1>
+      <h2>Sakari De-Meis</h2>
       <p>{t("about.bio")}</p>
       </div>
     </section>

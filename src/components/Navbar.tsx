@@ -21,7 +21,6 @@ export default function Navbar() {
           <li>
             <NavLink to="/about">{t("navbar.about")}</NavLink>
           </li>
-          <li>          </li>
           <li>
             <NavLink to="/contact">{t("navbar.contact")}</NavLink>
           </li>

@@ -38,7 +38,7 @@ export const collections: ArtCollection[] = [
           en: "Watercolour on paper, 2025",
           fr: "Aquarelle sur papier, 2025"
         },
-        image: "/art/awakening.jpg"
+        image: "../assets/profile.jpg"
       }
     ]
   }

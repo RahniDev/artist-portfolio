@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className="home">
       <div className="hero">
-        <h1>{t("artistName")}</h1>
+        <h1>Sakari</h1>
         <p>{t("heroSubtitle")}</p>
         <Link to="/gallery" className="cta">View Collections</Link>
       </div>
