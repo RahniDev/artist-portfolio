@@ -5,11 +5,32 @@ import structureMind from "../assets/art/structure-mind.jpg";
 import forgiveRemember from "../assets/art/forgive-remember.jpg";
 import ancestralSignificance from "../assets/art/ancestral-significance.jpg";
 import accessSubconscious from "../assets/art/access-subconscious.jpg";
-import tangledWool from "../assets/art/tangled-wool.jpg"; 
+import tangledWool from "../assets/art/tangled-wool.jpg";
 import trueOrFalse from "../assets/art/true-or-false.jpg";
 import howManyLives from "../assets/art/how-many-lives.jpg";
 import timeForMe from "../assets/art/time-for-me.jpg";
 import outwardFrustration from "../assets/art/outward-frustration.jpg";
+import diminishingFear from "../assets/art/diminishing-fear.jpg";
+import unboxBuried from "../assets/art/unbox-buried.jpg";
+import overwhelmingBeautiful from "../assets/art/overwhelming-beautiful.jpg";
+import rhythmSensation from "../assets/art/rhythm-sensation.jpg";
+import applesOranges from "../assets/art/apples-oranges.jpg";
+import noWords from "../assets/art/no-words.jpg";
+import stillnessEarth from "../assets/art/stillness-earth.jpg";
+import theCaveSilence from "../assets/art/the-cave-of-silence.jpg";
+import pleaseSurroundMe from "../assets/art/please-surround-me.jpg";
+import iAccept from "../assets/art/i-accept.jpg";
+import illusionOfSecurity from "../assets/art/illusion-of-security.jpg";
+import emergingThoughts from "../assets/art/emerging-thoughts.jpg";
+import thoughtsAtMidnight from "../assets/art/thoughts-at-midnight.jpg";
+import onlyOneHalfBelongs from "../assets/art/only-one-half-belongs.jpg";
+import consenquences from "../assets/art/consequences.jpg";
+import enterIfYouDare from "../assets/art/enter-if-you-dare.jpg";
+import stopAtEachLevel from "../assets/art/stop-at-each-level.jpg";
+import noAccess from "../assets/art/no-access.jpg";
+import whenYoureReady from "../assets/art/when-youre-ready.jpg";
+import softlyVanishing from "../assets/art/softly-vanishing.jpg";
+import nowRest from "../assets/art/now-rest.jpg";
 
 export const collections: ArtCollection[] = [
   {
@@ -59,7 +80,7 @@ export const collections: ArtCollection[] = [
         },
         image: forgiveRemember
       },
-       {
+      {
         id: "ancestral-significance",
         title: {
           en: "Ancestral Significance",
@@ -71,7 +92,7 @@ export const collections: ArtCollection[] = [
         },
         image: ancestralSignificance
       },
-       {
+      {
         id: "access-the-subconscious",
         title: {
           en: "Access the Subconscious",
@@ -121,7 +142,7 @@ export const collections: ArtCollection[] = [
       },
     ]
   },
-   {
+  {
     id: "emotions",
     title: {
       en: "Emotions",
@@ -166,9 +187,9 @@ export const collections: ArtCollection[] = [
           en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: diminishingFear
       },
-       {
+      {
         id: "unbox-the-buried",
         title: {
           en: "Unbox the Buried",
@@ -178,9 +199,9 @@ export const collections: ArtCollection[] = [
           en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: unboxBuried
       },
-       {
+      {
         id: "overwhelming-yet-beautiful",
         title: {
           en: "Overwhelming yet beautiful",
@@ -190,7 +211,7 @@ export const collections: ArtCollection[] = [
           en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: overwhelmingBeautiful
       },
       {
         id: "the-rhythm-of-sensation",
@@ -202,7 +223,7 @@ export const collections: ArtCollection[] = [
           en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: rhythmSensation
       },
       {
         id: "apples-or-oranges",
@@ -214,12 +235,12 @@ export const collections: ArtCollection[] = [
           en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: applesOranges
       }
     ]
   },
   {
-   id: "solitude",
+    id: "solitude",
     title: {
       en: "Solitude",
       fr: ""
@@ -228,7 +249,7 @@ export const collections: ArtCollection[] = [
       en: "",
       fr: ""
     },
-      pieces: [
+    pieces: [
       {
         id: "no-words",
         title: {
@@ -236,10 +257,10 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: noWords
       },
       {
         id: "stillness-of-the-earth",
@@ -248,10 +269,10 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: stillnessEarth
       },
       {
         id: "the-cave-of-silence",
@@ -260,34 +281,34 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: theCaveSilence
       },
-       {
+      {
         id: "please-surround-me",
         title: {
           en: "Please surround me",
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: pleaseSurroundMe
       },
-       {
+      {
         id: "I accept",
         title: {
           en: "I accept",
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: iAccept
       },
       {
         id: "the-illusion-of-security",
@@ -296,10 +317,10 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: illusionOfSecurity
       },
       {
         id: "emerging-thoughts",
@@ -308,107 +329,240 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: emergingThoughts
+      },
+      {
+        id: "",
+        title: {
+          en: "Thoughts at midnight",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: thoughtsAtMidnight
+      }
+    ]
+  },
+  {
+    id: "",
+    title: {
+      en: "Worlds & Dimensions",
+      fr: ""
+    },
+    description: {
+      en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+      fr: ""
+    },
+    pieces: [
+      {
+        id: "",
+        title: {
+          en: "Only one half belongs",
+          fr: ""
+        },
+        description: {
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: onlyOneHalfBelongs
+      },
+      {
+        id: "",
+        title: {
+          en: "Consequences",
+          fr: ""
+        },
+        description: {
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
+          fr: ""
+        },
+        image: consenquences
+      },
+      {
+        id: "",
+        title: {
+          en: "Enter if you dare",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: enterIfYouDare
+      },
+      {
+        id: "",
+        title: {
+          en: "Stop at each level",
+          fr: ""
+        },
+        description: {
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: stopAtEachLevel
+      },
+      {
+        id: "",
+        title: {
+          en: "No access",
+          fr: ""
+        },
+        description: {
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: noAccess
+      },
+      {
+        id: "",
+        title: {
+          en: "When you're ready",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and oil pastel.",
+          fr: ""
+        },
+        image: whenYoureReady
+      },
+      {
+        id: "",
+        title: {
+          en: "Now rest",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: nowRest
+      },
+      {
+        id: "",
+        title: {
+          en: "Softly vanishing",
+          fr: ""
+        },
+        description: {
+          en: "36cm x 51cm, 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: softlyVanishing
       }
     ]
   },
    {
-   id: "",
+    id: "",
     title: {
-      en: "Solitude",
-      fr: ""
-    },
-    description: {
       en: "",
       fr: ""
     },
-      pieces: [
+    description: {
+      en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+      fr: ""
+    },
+    pieces: [
       {
         id: "",
         title: {
-          en: "No words",
+          en: "Only one half belongs",
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
-      },
-      {
-        id: "",
-        title: {
-          en: "Stillness of the Earth",
-          fr: ""
-        },
-        description: {
-          en: "",
-          fr: ""
-        },
-        image: "../assets/art/.jpg"
+        image: onlyOneHalfBelongs
       },
       {
         id: "",
         title: {
-          en: "The Cave of Silence",
+          en: "Consequences",
           fr: ""
         },
         description: {
-          en: "",
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
-      },
-       {
-        id: "",
-        title: {
-          en: "Please surround me",
-          fr: ""
-        },
-        description: {
-          en: "",
-          fr: ""
-        },
-        image: "../assets/art/.jpg"
-      },
-       {
-        id: "",
-        title: {
-          en: "I accept",
-          fr: ""
-        },
-        description: {
-          en: "",
-          fr: ""
-        },
-        image: "../assets/art/.jpg"
+        image: consenquences
       },
       {
         id: "",
         title: {
-          en: "The Illusion of Security",
+          en: "Enter if you dare",
           fr: ""
         },
         description: {
-          en: "",
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: enterIfYouDare
       },
       {
         id: "",
         title: {
-          en: "Emerging Thoughts",
+          en: "Stop at each level",
           fr: ""
         },
         description: {
-          en: "",
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
           fr: ""
         },
-        image: "../assets/art/.jpg"
+        image: stopAtEachLevel
+      },
+      {
+        id: "",
+        title: {
+          en: "No access",
+          fr: ""
+        },
+        description: {
+          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: noAccess
+      },
+      {
+        id: "",
+        title: {
+          en: "When you're ready",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and oil pastel.",
+          fr: ""
+        },
+        image: whenYoureReady
+      },
+      {
+        id: "",
+        title: {
+          en: "Now rest",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: nowRest
+      },
+      {
+        id: "",
+        title: {
+          en: "Softly vanishing",
+          fr: ""
+        },
+        description: {
+          en: "36cm x 51cm, 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: softlyVanishing
       }
     ]
   }
