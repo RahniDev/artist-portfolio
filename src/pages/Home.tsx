@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { collections } from "../data/artContent";
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -8,20 +9,20 @@ export default function Home() {
   return (
     <section className="home">
       <div className="hero">
-        <h1>Sakari</h1>
-        <p>{t("heroSubtitle")}</p>
+        <h1>Sakari De-Meis</h1>
+        <p>{t("hero.subtitle")}</p>
         <div className="collections">
           {collections.map((col) => (
-            <a
+            <Link
               key={col.id}
-              href={`/gallery#${col.id}`}
+              to={`/gallery/${col.id}`}
               className="collection-card"
             >
               <h3>{col.title[lang]}</h3>
               <span className="collection-cta">
                 {lang.startsWith("fr") ? "Voir la collection" : "View collection"}
               </span>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

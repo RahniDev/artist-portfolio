@@ -1,18 +1,29 @@
+import { useState } from "react";
 import { collections } from "../data/artContent";
 import { useTranslation } from "react-i18next";
+import { useParams } from "react-router-dom";
 
 export default function Gallery() {
   const { i18n } = useTranslation();
   const lang = i18n.language as "en" | "fr";
+  const { id } = useParams<{ id: string }>();
+
+  const [selectedCollectionId, setSelectedCollectionId] = useState<string | null>(
+    id || null
+  );
+
+  const selectedCollection = collections.find(
+    (col) => col.id === selectedCollectionId
+  );
+
+  const displayedCollections = selectedCollection
+    ? [selectedCollection]
+    : collections;
 
   return (
-    <>
-      {collections.map((col) => (
-        <section
-          key={col.id}
-          id={col.id}
-          className="gallery-collection"
-        >
+    <section className="gallery-page">
+      {displayedCollections.map((col) => (
+        <section key={col.id} className="gallery-collection">
           <h2 className="collection-title">{col.title[lang]}</h2>
 
           <div className="pieces-grid">
@@ -31,7 +42,6 @@ export default function Gallery() {
           </div>
         </section>
       ))}
-    </>
-  )
+    </section>
+  );
 }
-

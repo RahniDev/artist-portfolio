@@ -8,7 +8,13 @@ body {
 .cta {
   color: #111;
 }
+.hero {
+  text-align: center;
+}
 
+.hero h1 {
+  padding-top: 2rem;
+}
 .about {
   max-width: 1200px;
   margin: 0 auto;
@@ -278,7 +284,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
-  padding: 4rem;
+  padding: 2rem 4rem;
 }
 
 .collection-card {
