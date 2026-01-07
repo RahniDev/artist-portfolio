@@ -12,9 +12,16 @@ export default function Home() {
         <p>{t("heroSubtitle")}</p>
         <div className="collections">
           {collections.map((col) => (
-            <div key={col.id} className="collection">
+            <a
+              key={col.id}
+              href={`/gallery#${col.id}`}
+              className="collection-card"
+            >
               <h3>{col.title[lang]}</h3>
-            </div>
+              <span className="collection-cta">
+                {lang.startsWith("fr") ? "Voir la collection" : "View collection"}
+              </span>
+            </a>
           ))}
         </div>
       </div>

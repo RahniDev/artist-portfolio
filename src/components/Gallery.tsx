@@ -6,18 +6,22 @@ export default function Gallery() {
   const lang = i18n.language as "en" | "fr";
 
   return (
-    <section className="gallery-page">
+    <>
       {collections.map((col) => (
-        <div key={col.id} className="collection">
-          <h3>{col.title[lang]}</h3>
-       
+        <section
+          key={col.id}
+          id={col.id}
+          className="gallery-collection"
+        >
+          <h2 className="collection-title">{col.title[lang]}</h2>
+
           <div className="pieces-grid">
             {col.pieces.map((piece) => (
               <div key={piece.id} className="piece-card">
                 <img
                   src={piece.image}
-                  width='300px'
-                  height='270px'
+                  width="300"
+                  height="270"
                   alt={piece.title[lang]}
                 />
                 <h4>{piece.title[lang]}</h4>
@@ -25,8 +29,9 @@ export default function Gallery() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
       ))}
-    </section>
-  );
+    </>
+  )
 }
+
