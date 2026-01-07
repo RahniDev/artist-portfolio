@@ -31,6 +31,29 @@ import noAccess from "../assets/art/no-access.jpg";
 import whenYoureReady from "../assets/art/when-youre-ready.jpg";
 import softlyVanishing from "../assets/art/softly-vanishing.jpg";
 import nowRest from "../assets/art/now-rest.jpg";
+import imWaiting from "../assets/art/im-waiting.jpg";
+import sittingForDays from "../assets/art/sitting-for-days.jpg";
+import iCantReachYou from "../assets/art/i-cant-reach-you.jpg";
+import fromWhere from "../assets/art/from-where.jpg";
+import directional from "../assets/art/directional.jpg";
+import aBusyCafe from "../assets/art/a-busy-cafe.jpg";
+import immersion from "../assets/art/immersion.jpg";
+import powerful from "../assets/art/powerful.jpg";
+import findTheSource from "../assets/art/find-the-source.jpg";
+import aboveOrBelow from "../assets/art/above-or-below.jpg";
+import hauntingThoughts from "../assets/art/haunting-thoughts.jpg";
+import amIReal from "../assets/art/am-i-real.jpg";
+import endangeredSilence from "../assets/art/endangered-silence.jpg"; 
+import innerChild from "../assets/art/inner-child.jpg";
+import play from "../assets/art/play.jpg";
+import exploringTheBigWorld from "../assets/art/exploring-the-big-world.jpg";
+import aSprinklingOfMagic from "../assets/art/a-sprinkling-of-magic.jpg";
+import monsieur1 from "../assets/art/monsieur1.jpg";
+import monsieur2 from "../assets/art/monsieur2.jpg";
+import monsieur3 from "../assets/art/monsieur3.jpg";
+import monsieur4 from "../assets/art/monsieur4.jpg";
+import monsieur5 from "../assets/art/monsieur5.jpg";
+import monsieur6 from "../assets/art/monsieur6.jpg";
 
 export const collections: ArtCollection[] = [
   {
@@ -458,111 +481,343 @@ export const collections: ArtCollection[] = [
     ]
   },
    {
-    id: "",
+    id: "guidance",
     title: {
-      en: "",
+      en: "Guidance",
       fr: ""
     },
     description: {
-      en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+      en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
       fr: ""
     },
     pieces: [
       {
-        id: "",
+        id: "im-waiting",
         title: {
-          en: "Only one half belongs",
+          en: "I'm waiting",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: imWaiting
+      },
+      {
+        id: "sitting-for-days",
+        title: {
+          en: "Sitting for days",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: sittingForDays
+      },
+      {
+        id: "i-cant-reach-you",
+        title: {
+          en: "I can't reach you",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: iCantReachYou
+      },
+      {
+        id: "from-where",
+        title: {
+          en: "From where?",
+          fr: ""
+        },
+        description: {
+          en: "30cm x 42cm 100% cotton Arches paper. Watercolour.",
+          fr: ""
+        },
+        image: fromWhere
+      }
+    ]
+  },
+   {
+    id: "vibration",
+    title: {
+      en: "Vibration",
+      fr: ""
+    },
+    description: {
+      en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+      fr: ""
+    },
+    pieces: [
+      {
+        id: "directional",
+        title: {
+          en: "Directional",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: directional
+      },
+      {
+        id: "a-busy-cafe",
+        title: {
+          en: "A busy cafe",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: aBusyCafe
+      },
+      {
+        id: "immersion",
+        title: {
+          en: "Immersion",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: immersion
+      },
+      {
+        id: "powerful",
+        title: {
+          en: "Powerful",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: powerful
+      },
+      {
+        id: "find-the-source",
+        title: {
+          en: "Find the source",
           fr: ""
         },
         description: {
           en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
           fr: ""
         },
-        image: onlyOneHalfBelongs
+        image: findTheSource
+      }
+    ]
+  },
+   {
+    id: "darker-depths",
+    title: {
+      en: "Darker Depths",
+      fr: ""
+    },
+    description: {
+      en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+      fr: ""
+    },
+    pieces: [
+      {
+        id: "above-or-below",
+        title: {
+          en: "Above or below",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: aboveOrBelow
       },
       {
-        id: "",
+        id: "haunting-thoughts",
         title: {
-          en: "Consequences",
+          en: "Haunting thoughts",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: hauntingThoughts
+      },
+      {
+        id: "am-i-real",
+        title: {
+          en: "Am I real?",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: amIReal
+      },
+      {
+        id: "endangered-silence",
+        title: {
+          en: "Endangered silence",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: endangeredSilence
+      },
+    ]
+  },
+   {
+    id: "essence",
+    title: {
+      en: "Essence",
+      fr: ""
+    },
+    description: {
+      en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
+      fr: ""
+    },
+    pieces: [
+      {
+        id: "inner-child",
+        title: {
+          en: "Inner child",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: innerChild
+      },
+      {
+        id: "play",
+        title: {
+          en: "Play",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          fr: ""
+        },
+        image: play
+      },
+      {
+        id: "exploring-the-big-world",
+        title: {
+          en: "Exploring the big world",
+          fr: ""
+        },
+        description: {
+          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          fr: ""
+        },
+        image: exploringTheBigWorld
+      },
+      {
+        id: "a-sprinkling-of-magic",
+        title: {
+          en: "A sprinkling of magic",
           fr: ""
         },
         description: {
           en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
           fr: ""
         },
-        image: consenquences
+        image: aSprinklingOfMagic
       },
+    ]
+  },
+    {
+    id: "french-vintage",
+    title: {
+      en: "French Vintage",
+      fr: ""
+    },
+    description: {
+      en: "",
+      fr: ""
+    },
+    pieces: [
       {
-        id: "",
+        id: "monsieur-1",
         title: {
-          en: "Enter if you dare",
+          en: "Monsieur 1",
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: enterIfYouDare
+        image: monsieur1
       },
       {
-        id: "",
+        id: "monsieur-2",
         title: {
-          en: "Stop at each level",
+          en: "Monsieur 2",
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: stopAtEachLevel
+        image: monsieur2
       },
       {
-        id: "",
+        id: "monsieur-3",
         title: {
-          en: "No access",
+          en: "Monsieur 3",
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: noAccess
+        image: monsieur3
       },
       {
-        id: "",
+        id: "monsieur-4",
         title: {
-          en: "When you're ready",
+          en: "Monsieur 4",
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and oil pastel.",
+          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: whenYoureReady
+        image: monsieur4
       },
-      {
-        id: "",
+       {
+        id: "monsieur-5",
         title: {
-          en: "Now rest",
+          en: "Monsieur 5",
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: nowRest
+        image: monsieur5
       },
-      {
-        id: "",
+       {
+        id: "monsieur-6",
         title: {
-          en: "Softly vanishing",
+          en: "Monsieur 6",
           fr: ""
         },
         description: {
-          en: "36cm x 51cm, 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
           fr: ""
         },
-        image: softlyVanishing
+        image: monsieur6
       }
     ]
   }
