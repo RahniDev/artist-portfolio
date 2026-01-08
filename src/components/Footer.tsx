@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <p>© {new Date().getFullYear()} Sakari. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Sakari De-Meis. All rights reserved.</p>
 
         <div className="footer-social">
           <a

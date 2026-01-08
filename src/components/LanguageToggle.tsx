@@ -1,22 +1,32 @@
 import { useTranslation } from "react-i18next";
 
-export default function LanguageToggle() {
+export default function LangToggle() {
   const { i18n } = useTranslation();
+  const currentLang = i18n.language.startsWith("fr") ? "fr" : "en";
 
-  const lang = i18n.resolvedLanguage ?? "en";
-  const isFrench = lang.startsWith("fr");
-
-  const toggleLanguage = () => {
-    if (!i18n.changeLanguage) {
-      console.error("i18n.changeLanguage is not available!");
-      return;
-    }
-    i18n.changeLanguage(isFrench ? "en" : "fr");
+  const changeLang = (lang: "en" | "fr") => {
+    i18n.changeLanguage(lang);
   };
 
   return (
-    <button className="lang-toggle" onClick={toggleLanguage}>
-      {isFrench ? "EN" : "FR"}
-    </button>
+    <div className="lang-toggle">
+      <button
+        className={`lang-option ${currentLang === "en" ? "active" : ""}`}
+        onClick={() => changeLang("en")}
+        aria-pressed={currentLang === "en"}
+      >
+        EN
+      </button>
+
+      <span className="lang-separator">/</span>
+
+      <button
+        className={`lang-option ${currentLang === "fr" ? "active" : ""}`}
+        onClick={() => changeLang("fr")}
+        aria-pressed={currentLang === "fr"}
+      >
+        FR
+      </button>
+    </div>
   );
 }

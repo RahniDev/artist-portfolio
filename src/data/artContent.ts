@@ -54,6 +54,8 @@ import monsieur3 from "../assets/art/monsieur3.jpg";
 import monsieur4 from "../assets/art/monsieur4.jpg";
 import monsieur5 from "../assets/art/monsieur5.jpg";
 import monsieur6 from "../assets/art/monsieur6.jpg";
+import soIncrediblyBound from "../assets/art/so-incredibly-bound.jpg";
+import theCourageOfTheShaken from "../assets/art/the-courage-of-the-shaken.jpg";
 
 export const collections: ArtCollection[] = [
   {
@@ -673,6 +675,30 @@ export const collections: ArtCollection[] = [
         },
         image: endangeredSilence
       },
+      {
+        id: "so-incredibly-bound",
+        title: {
+          en: "So incredibly bound",
+          fr: ""
+        },
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: ""
+        },
+        image: soIncrediblyBound
+      },
+       {
+        id: "the-courage-of-the-shaken",
+        title: {
+          en: "The courage of the shaken",
+          fr: ""
+        },
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: ""
+        },
+        image: theCourageOfTheShaken
+      }
     ]
   },
    {

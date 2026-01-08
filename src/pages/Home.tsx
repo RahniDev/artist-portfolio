@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <section className="home">
       <div className="hero">
-        <h1>Sakari</h1>
-        <p>{t("heroSubtitle")}</p>
+        <h1>Sakari De-Meis</h1>
+        <p>{t("home.subtitle")}</p>
 
         <div className="collections">
           {collections.map((col) => {
