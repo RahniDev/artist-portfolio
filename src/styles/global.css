@@ -208,8 +208,6 @@ body {
   line-height: 1.6;
 }
 
-/* Form */
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -247,8 +245,6 @@ body {
   border-bottom-color: #111;
 }
 
-/* Submit */
-
 .contact-submit,
 .cta {
   align-self: flex-start;
@@ -281,78 +277,87 @@ body {
 
 .collections {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-  padding: 2rem 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+  padding: 0 50px;
 }
 
+
+/* Card */
 .collection-card {
-  display: block;
-  padding: 2.5rem 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  position: relative;
+  height: 340px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
   text-decoration: none;
-  color: inherit;
-  background: #fff;
-  transition: 
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
+  color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
-.collection-card h3 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  margin-bottom: 1rem;
+/* Image dimming layer */
+.collection-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.18); /* subtle transparency */
+  z-index: 0;
+  transition: background 0.35s ease;
+}
+
+/* Gradient overlay for text clarity */
+.collection-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.1)
+  );
+  z-index: 0;
+  transition: opacity 0.35s ease;
+}
+
+.collection-overlay {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  z-index: 1;
 }
 
 .collection-cta {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  opacity: 0.6;
+  letter-spacing: 0.14em;
+  opacity: 0.85;
 }
 
 .collection-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  border-color: rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.25);
 }
 
-.gallery-page {
-  padding: 4rem 2rem;
+.collection-card:hover::before {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.25)
+  );
+}
+.collection-card {
+  filter: saturate(0.95) contrast(0.95);
 }
 
-.gallery-collection {
-  margin-bottom: 5rem;
+/* Subtle zoom */
+.collection-card {
+  background-size: 105%;
 }
 
-.collection-title {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2.5rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  padding-bottom: 1rem;
-}
-.piece-card {
-  text-align: left;
-}
-
-.piece-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.75rem;
-}
-
-.piece-card h4 {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 0.25rem;
-}
-
-.piece-card p {
-  font-size: 0.85rem;
-  opacity: 0.7;
+.collection-card:hover {
+  background-size: 112%;
 }

@@ -1,6 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { collections } from "../data/artContent";
-import { Link } from 'react-router-dom'
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -9,21 +8,33 @@ export default function Home() {
   return (
     <section className="home">
       <div className="hero">
-        <h1>Sakari De-Meis</h1>
-        <p>{t("hero.subtitle")}</p>
+        <h1>Sakari</h1>
+        <p>{t("heroSubtitle")}</p>
+
         <div className="collections">
-          {collections.map((col) => (
-            <Link
-              key={col.id}
-              to={`/gallery/${col.id}`}
-              className="collection-card"
-            >
-              <h3>{col.title[lang]}</h3>
-              <span className="collection-cta">
-                {lang.startsWith("fr") ? "Voir la collection" : "View collection"}
-              </span>
-            </Link>
-          ))}
+          {collections.map((col) => {
+            const coverImage = col.pieces[0]?.image;
+
+            return (
+              <a
+                key={col.id}
+                href={`/gallery/${col.id}`}
+                className="collection-card"
+                style={{
+                  backgroundImage: `url(${coverImage})`,
+                }}
+              >
+                <div className="collection-overlay">
+                  <h3>{col.title[lang]}</h3>
+                  <span className="collection-cta">
+                    {lang.startsWith("fr")
+                      ? "Voir la collection"
+                      : "View collection"}
+                  </span>
+                </div>
+              </a>
+            );
+          })}
         </div>
       </div>
     </section>
