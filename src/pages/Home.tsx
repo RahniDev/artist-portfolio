@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { collections } from "../data/artContent";
 import { useTranslation } from "react-i18next";
 
@@ -16,13 +17,11 @@ export default function Home() {
             const coverImage = col.pieces[0]?.image;
 
             return (
-              <a
+              <Link
                 key={col.id}
-                href={`/gallery/${col.id}`}
+                to={`/gallery/${col.id}`}
                 className="collection-card"
-                style={{
-                  backgroundImage: `url(${coverImage})`,
-                }}
+                style={{ backgroundImage: `url(${coverImage})` }}
               >
                 <div className="collection-overlay">
                   <h3>{col.title}</h3>
@@ -32,7 +31,7 @@ export default function Home() {
                       : "View collection"}
                   </span>
                 </div>
-              </a>
+              </Link>
             );
           })}
         </div>
