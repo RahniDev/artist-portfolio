@@ -74,7 +74,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: beforeBirth
@@ -86,7 +86,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: structureMind
@@ -98,7 +98,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: forgiveRemember
@@ -110,7 +110,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: ancestralSignificance
@@ -122,7 +122,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: accessSubconscious
@@ -134,7 +134,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: tangledWool
@@ -146,7 +146,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: trueOrFalse
@@ -158,7 +158,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: howManyLives
@@ -183,8 +183,8 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "",
-          fr: "30cm x 42cm 100% cotton Arches paper. Watercolour and other media."
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and other media",
+          fr: ""
         },
         image: timeForMe
       },
@@ -195,7 +195,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: outwardFrustration
@@ -207,7 +207,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: diminishingFear
@@ -219,7 +219,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: unboxBuried
@@ -231,7 +231,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: overwhelmingBeautiful
@@ -243,7 +243,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: rhythmSensation
@@ -255,7 +255,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: applesOranges
@@ -280,7 +280,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: noWords
@@ -292,7 +292,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: stillnessEarth
@@ -304,7 +304,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: theCaveSilence
@@ -316,7 +316,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: pleaseSurroundMe
@@ -328,7 +328,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: iAccept
@@ -340,7 +340,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: illusionOfSecurity
@@ -352,7 +352,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: emergingThoughts
@@ -364,7 +364,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: thoughtsAtMidnight
@@ -372,13 +372,13 @@ export const collections: ArtCollection[] = [
     ]
   },
   {
-    id: "",
+    id: "worlds-and-dimensions",
     title: {
       en: "Worlds & Dimensions",
       fr: ""
     },
     description: {
-      en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+      en: "",
       fr: ""
     },
     pieces: [
@@ -389,7 +389,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
           fr: ""
         },
         image: onlyOneHalfBelongs
@@ -401,7 +401,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour painting",
           fr: ""
         },
         image: consenquences
@@ -413,7 +413,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: enterIfYouDare
@@ -425,7 +425,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
           fr: ""
         },
         image: stopAtEachLevel
@@ -437,7 +437,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          en: "30cm x 42.5cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
           fr: ""
         },
         image: noAccess
@@ -449,7 +449,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and oil pastel.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and oil pastel",
           fr: ""
         },
         image: whenYoureReady
@@ -461,7 +461,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: nowRest
@@ -473,7 +473,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "36cm x 51cm, 100% cotton premium paper. Watercolour.",
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: softlyVanishing
@@ -487,7 +487,7 @@ export const collections: ArtCollection[] = [
       fr: ""
     },
     description: {
-      en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+      en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
       fr: ""
     },
     pieces: [
@@ -498,7 +498,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: imWaiting
@@ -510,7 +510,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: sittingForDays
@@ -522,7 +522,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: iCantReachYou
@@ -534,7 +534,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42cm 100% cotton Arches paper. Watercolour.",
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour painting",
           fr: ""
         },
         image: fromWhere
@@ -548,7 +548,7 @@ export const collections: ArtCollection[] = [
       fr: ""
     },
     description: {
-      en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+      en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
       fr: ""
     },
     pieces: [
@@ -559,7 +559,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: directional
@@ -571,7 +571,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: aBusyCafe
@@ -583,7 +583,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: immersion
@@ -595,7 +595,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: powerful
@@ -607,7 +607,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour and other media.",
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
           fr: ""
         },
         image: findTheSource
@@ -621,7 +621,7 @@ export const collections: ArtCollection[] = [
       fr: ""
     },
     description: {
-      en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+      en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
       fr: ""
     },
     pieces: [
@@ -632,7 +632,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: aboveOrBelow
@@ -644,7 +644,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: hauntingThoughts
@@ -656,7 +656,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: amIReal
@@ -668,7 +668,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: endangeredSilence
@@ -682,7 +682,7 @@ export const collections: ArtCollection[] = [
       fr: ""
     },
     description: {
-      en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
+      en: "30cm x 42.5cm\r\n 100% cotton Arches paper\r\n Watercolour painting",
       fr: ""
     },
     pieces: [
@@ -693,7 +693,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: innerChild
@@ -705,7 +705,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour and other media.",
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: ""
         },
         image: play
@@ -717,7 +717,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "26cm x 36cm 100% cotton premium paper. Watercolour.",
+          en: "26cm x 36cm 100%\r\n cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: exploringTheBigWorld
@@ -729,7 +729,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "30cm x 42.5cm 100% cotton Arches paper. Watercolour.",
+          en: "30cm x 42cm 100%\r\n cotton Arches paper\r\n Watercolour painting",
           fr: ""
         },
         image: aSprinklingOfMagic
@@ -754,7 +754,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: monsieur1
@@ -766,7 +766,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: monsieur2
@@ -778,7 +778,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: monsieur3
@@ -790,7 +790,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: monsieur4
@@ -802,7 +802,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: monsieur5
@@ -814,7 +814,7 @@ export const collections: ArtCollection[] = [
           fr: ""
         },
         description: {
-          en: "21cm x 29.7cm 100% cotton premium paper. Watercolour.",
+          en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
         image: monsieur6
