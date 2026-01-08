@@ -14,11 +14,6 @@ export default function Navbar() {
 
         <ul className="navbar-links">
           <li>
-            <NavLink to="/" end>
-              {t("navbar.home")}
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/about">{t("navbar.about")}</NavLink>
           </li>
           <li>
