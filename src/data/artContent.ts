@@ -55,7 +55,7 @@ import monsieur4 from "../assets/art/monsieur4.jpg";
 import monsieur5 from "../assets/art/monsieur5.jpg";
 import monsieur6 from "../assets/art/monsieur6.jpg";
 import soIncrediblyBound from "../assets/art/so-incredibly-bound.jpg";
-import theCourageOfTheShaken from "../assets/art/the-courage-of-the-shaken.jpg";
+// import theCourageOfTheShaken from "../assets/art/the-courage-of-the-shaken.jpg";
 
 export const collections: ArtCollection[] = [
   {
@@ -697,7 +697,7 @@ export const collections: ArtCollection[] = [
           en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: ""
         },
-        image: theCourageOfTheShaken
+        image: ""
       }
     ]
   },

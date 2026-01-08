@@ -444,3 +444,86 @@ a {
 .footer-social .instagram {
   margin: 0 1rem;
 }
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  position: relative;
+  background: transparent;
+  padding: 1rem;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+}
+
+/* Close button (VISIBLE now) */
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Arrows */
+.modal-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0.85;
+}
+
+.modal-nav:hover {
+  opacity: 1;
+}
+
+.modal-nav.prev {
+  left: -3rem;
+}
+
+.modal-nav.next {
+  right: -3rem;
+}
+
+.modal-caption {
+  margin-top: 0.75rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+/* Mobile: arrows inside image bounds */
+@media (max-width: 768px) {
+  .modal-nav.prev {
+    left: 0.5rem;
+  }
+  .modal-nav.next {
+    right: 0.5rem;
+  }
+}

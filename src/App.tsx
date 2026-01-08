@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
+import Gallery from "./pages/Gallery";
 
 export default function App() {
   return (
