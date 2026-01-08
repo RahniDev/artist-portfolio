@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body {
   font-family: "Playfair Display", serif;
   color: #222;
@@ -44,6 +46,7 @@ a {
   color: #555;
   margin-top: 0.5rem;
 }
+
 /* ----------------- ABOUT ----------------- */
 .about {
   max-width: 1200px;
@@ -156,7 +159,7 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.45), rgba(0,0,0,0.1));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1));
   z-index: 0;
   transition: opacity 0.35s ease;
 }
@@ -183,12 +186,12 @@ a {
 
 .collection-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 24px 45px rgba(0,0,0,0.25);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.25);
   background-size: 112%;
 }
 
 .collection-card:hover::before {
-  background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.25));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
 }
 
 /* ----------------- PIECE CARDS ----------------- */
@@ -208,7 +211,7 @@ a {
 
 .piece-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
 .piece-card img {
@@ -244,7 +247,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255,255,255,0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(6px);
 }
 
@@ -258,8 +261,9 @@ a {
 }
 
 .navbar-logo {
-  font-family: "Georgia", serif;
+  font-family: "Great Vibes", cursive;
   font-size: 1.4rem;
+  font-weight: 400;
   text-decoration: none;
   color: #111;
   letter-spacing: 0.05em;
@@ -474,7 +478,7 @@ a {
   max-height: 80vh;
   object-fit: contain;
   user-select: none;
-  cursor: none; 
+  cursor: none;
   transition: transform 0.25s ease;
 }
 
@@ -494,7 +498,7 @@ a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   border: none;
   color: #fff;
   font-size: 2rem;
@@ -526,12 +530,13 @@ a {
 }
 
 .magnifier-lens {
-  transition: all 0.05s ease-out; /* smooth movement */
+  transition: all 0.05s ease-out;
+  /* smooth movement */
   position: absolute;
   pointer-events: none;
   border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.8);
-  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
 
@@ -540,6 +545,7 @@ a {
   .modal-nav.prev {
     left: 0.5rem;
   }
+
   .modal-nav.next {
     right: 0.5rem;
   }
