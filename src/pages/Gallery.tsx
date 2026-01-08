@@ -13,12 +13,12 @@ export default function Gallery() {
   if (!selectedCollection) return null;
 
  const images = selectedCollection.pieces.map(p => p.image);
-const titles = selectedCollection.pieces.map(p => p.title[lang]);
+const titles = selectedCollection.pieces.map(p => p.title);
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
   return (
     <section className="gallery-page">
       <h2 className="collection-title">
-        {selectedCollection.title[lang]}
+        {selectedCollection.title}
       </h2>
 
       <div className="pieces-grid">
@@ -26,10 +26,10 @@ const titles = selectedCollection.pieces.map(p => p.title[lang]);
           <div key={piece.id} className="piece-card">
             <img
               src={piece.image}
-              alt={piece.title[lang]}
+              alt={piece.title}
               onClick={() => setCurrentIndex(index)}
             />
-            <h4>{piece.title[lang]}</h4>
+            <h4>{piece.title}</h4>
             <p>{piece.description[lang]}</p>
           </div>
         ))}

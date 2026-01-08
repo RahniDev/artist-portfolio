@@ -9,7 +9,7 @@ export default function Home() {
     <section className="home">
       <div className="hero">
         <h1>Sakari De-Meis</h1>
-        <p>{t("home.subtitle")}</p>
+        <p className="subtitle">{t("home.subtitle")}</p>
 
         <div className="collections">
           {collections.map((col) => {
@@ -25,7 +25,7 @@ export default function Home() {
                 }}
               >
                 <div className="collection-overlay">
-                  <h3>{col.title[lang]}</h3>
+                  <h3>{col.title}</h3>
                   <span className="collection-cta">
                     {lang.startsWith("fr")
                       ? "Voir la collection"

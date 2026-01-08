@@ -5,13 +5,12 @@ export type LocalizedText = Record<Lang, string>;
 export type ArtPiece = {
   id: string;
   image: string;
-  title: LocalizedText;
+  title: string;
   description: LocalizedText;
 };
 
 export type ArtCollection = {
   id: string;
-  title: LocalizedText;
-  description: LocalizedText;
+  title: string;
   pieces: ArtPiece[];
 };
