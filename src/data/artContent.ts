@@ -55,7 +55,9 @@ import monsieur4 from "../assets/art/monsieur4.jpg";
 import monsieur5 from "../assets/art/monsieur5.jpg";
 import monsieur6 from "../assets/art/monsieur6.jpg";
 import soIncrediblyBound from "../assets/art/so-incredibly-bound.jpg";
-// import theCourageOfTheShaken from "../assets/art/the-courage-of-the-shaken.jpg";
+import courageOfTheShaken from "../assets/art/courage-of-the-shaken.jpg";
+import readyForBlastOff from "../assets/art/ready-for-blast-off.jpg"
+import hoveringTheShadowOfSelf from "../assets/art/hovering-the-shadow-of-self.jpg"
 
 export const collections: ArtCollection[] = [
   {
@@ -366,7 +368,7 @@ export const collections: ArtCollection[] = [
           en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
-        image: "readyForBlastOff"
+        image: readyForBlastOff
       }
     ]
   },
@@ -513,13 +515,13 @@ export const collections: ArtCollection[] = [
         image: soIncrediblyBound
       },
        {
-        id: "the-courage-of-the-shaken",
-        title: "The courage of the shaken",
+        id: "courage-of-the-shaken",
+        title: "Courage of the shaken",
         description: {
           en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: "theCourageOfTheShaken"
+        image: courageOfTheShaken
       },
        {
         id: "hovering-the-shadow-of-self",
@@ -528,7 +530,7 @@ export const collections: ArtCollection[] = [
           en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
-        image: "hoveringTheShadowOfSelf"
+        image: hoveringTheShadowOfSelf
       }
     ]
   },

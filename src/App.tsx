@@ -7,10 +7,12 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
 import BackToTop from "./components/BackToTop";
+import Banner from "./components/Banner"
 
 export default function App() {
   return (
     <>
+      <Banner />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
