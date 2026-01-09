@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
+import BackToTop from "./components/BackToTop";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery/:id" element={<Gallery />} />
       </Routes>
+      <BackToTop />
       <Footer />
     </>
   );
