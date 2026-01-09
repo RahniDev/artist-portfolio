@@ -65,8 +65,8 @@ export const collections: ArtCollection[] = [
     title:  "Memory",
     pieces: [
       {
-        id: "before-my-birth",
-        title: "Before my birth",
+        id: "before-birth",
+        title: "Before birth",
         description: {
           en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
@@ -377,8 +377,8 @@ export const collections: ArtCollection[] = [
     title: "Guidance",
     pieces: [
       {
-        id: "im-waiting",
-        title: "I'm waiting",
+        id: "waiting",
+        title: "Waiting",
         description: {
           en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -398,8 +398,8 @@ export const collections: ArtCollection[] = [
         id: "i-cant-reach-you",
         title: "I can't reach you",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: iCantReachYou
       },
@@ -431,8 +431,8 @@ export const collections: ArtCollection[] = [
         id: "a-busy-cafe",
         title: "A busy cafe",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: aBusyCafe
       },
@@ -473,8 +473,8 @@ export const collections: ArtCollection[] = [
         id: "above-or-below",
         title: "Above or below",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: aboveOrBelow
       },
@@ -582,7 +582,7 @@ export const collections: ArtCollection[] = [
     pieces: [
       {
         id: "monsieur-1",
-        title: "Monsieur 1",
+        title: "Monsieur No. 1",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -591,7 +591,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-2",
-        title: "Monsieur 2",
+        title: "Monsieur No. 2",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -600,7 +600,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-3",
-        title: "Monsieur 3",
+        title: "Monsieur No. 3",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -609,7 +609,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-4",
-        title: "Monsieur 4",
+        title: "Monsieur No. 4",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -618,7 +618,7 @@ export const collections: ArtCollection[] = [
       },
        {
         id: "monsieur-5",
-        title: "Monsieur 5",
+        title: "Monsieur No. 5",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -627,7 +627,7 @@ export const collections: ArtCollection[] = [
       },
        {
         id: "monsieur-6",
-        title: "Monsieur 6",
+        title: "Monsieur No. 6",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
