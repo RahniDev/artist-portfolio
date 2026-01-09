@@ -550,3 +550,8 @@ a {
     right: 0.5rem;
   }
 }
+
+.modal-image-wrapper {
+  position: relative;
+  touch-action: none;
+}

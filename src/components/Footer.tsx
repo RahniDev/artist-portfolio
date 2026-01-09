@@ -9,7 +9,7 @@ export default function Footer() {
 
         <div className="footer-social">
           <a
-            href="https://instagram.com/sakouji.art"
+            href="https://instagram.com/sakari.art"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"

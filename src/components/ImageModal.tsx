@@ -17,135 +17,119 @@ export default function ImageModal({
   onNext,
   onPrev,
 }: ImageModalProps) {
-  const startX = useRef<number | null>(null);
-  const lastTap = useRef<number>(0);
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  const [isHoveringImage, setIsHoveringImage] = useState(false);
-  const [zoomed, setZoomed] = useState(false); // optional full zoom
   const [lensPos, setLensPos] = useState<{ x: number; y: number } | null>(null);
-  const zoom = 2; // magnifier zoom factor
-  const lensSize = 120;
 
+  const LENS_SIZE = 120;
+  const ZOOM = 2.5;
   const isDesktop = window.matchMedia("(hover: hover)").matches;
 
-  /* ---------------- Keyboard ---------------- */
-  useEffect(() => {
-    const handleKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
-      if (!zoomed && e.key === "ArrowRight") onNext();
-      if (!zoomed && e.key === "ArrowLeft") onPrev();
-    };
-    window.addEventListener("keydown", handleKey);
-    return () => window.removeEventListener("keydown", handleKey);
-  }, [zoomed, onClose, onNext, onPrev]);
-
-  /* Reset lens when image changes */
   useEffect(() => {
     setLensPos(null);
   }, [currentIndex]);
 
-  /* ---------------- Touch (mobile swipe + optional double-tap zoom) ---------------- */
-  const onTouchStart = (e: React.TouchEvent) => {
-    startX.current = e.touches[0].clientX;
-    const now = Date.now();
-    if (now - lastTap.current < 300) {
-      setZoomed((z) => !z);
+  /* ---------------- Position calculation ---------------- */
+  const updateLensPosition = (clientX: number, clientY: number) => {
+    const img = imgRef.current;
+    if (!img) return;
+
+    const rect = img.getBoundingClientRect();
+
+    if (
+      clientX < rect.left ||
+      clientX > rect.right ||
+      clientY < rect.top ||
+      clientY > rect.bottom
+    ) {
+      setLensPos(null);
+      return;
     }
-    lastTap.current = now;
-  };
 
-  const onTouchEnd = (e: React.TouchEvent) => {
-    if (startX.current === null) return;
-
-    const diff = e.changedTouches[0].clientX - startX.current;
-    if (diff > 60) onPrev();
-    if (diff < -60) onNext();
-
-    startX.current = null;
+    setLensPos({
+      x: clientX - rect.left,
+      y: clientY - rect.top,
+    });
   };
 
   /* ---------------- Mouse ---------------- */
   const onMouseMove = (e: React.MouseEvent) => {
-    if (!isDesktop || !imgRef.current) return;
-
-    const rect = imgRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-
-    // Only show lens if cursor is over image
-    if (x >= 0 && y >= 0 && x <= rect.width && y <= rect.height) {
-      setLensPos({ x, y });
-    } else {
-      setLensPos(null);
-    }
+    if (!isDesktop) return;
+    updateLensPosition(e.clientX, e.clientY);
   };
 
   const onMouseLeave = () => setLensPos(null);
 
+  /* ---------------- Touch ---------------- */
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0];
+    if (t) updateLensPosition(t.clientX, t.clientY);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    e.preventDefault();
+    const t = e.touches[0];
+    if (t) updateLensPosition(t.clientX, t.clientY);
+  };
+
+  const onTouchEnd = () => setLensPos(null);
+
+  /* ---------------- Zoom math ---------------- */
+  const img = imgRef.current;
+  const scaleX = img ? img.naturalWidth / img.clientWidth : 1;
+  const scaleY = img ? img.naturalHeight / img.clientHeight : 1;
+
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div
-        className="modal-content"
-        onClick={(e) => e.stopPropagation()}
-        onTouchStart={onTouchStart}
-        onTouchEnd={onTouchEnd}
-        onMouseMove={onMouseMove}
-        onMouseLeave={onMouseLeave}
-        style={{ position: "relative" }}
-      >
-        <button className="modal-close" onClick={onClose}>
-          ×
-        </button>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <button className="modal-close" onClick={onClose}>×</button>
 
-        {!zoomed && currentIndex > 0 && (
-          <button className="modal-nav prev" onClick={onPrev}>
-            ‹
-          </button>
+        {currentIndex > 0 && (
+          <button className="modal-nav prev" onClick={onPrev}>‹</button>
         )}
-        {!zoomed && currentIndex < images.length - 1 && (
-          <button className="modal-nav next" onClick={onNext}>
-            ›
-          </button>
+        {currentIndex < images.length - 1 && (
+          <button className="modal-nav next" onClick={onNext}>›</button>
         )}
 
-        <img
-          ref={imgRef}
-          src={images[currentIndex]}
-          alt={titles[currentIndex]}
-          style={{
-            display: "block",
-            maxWidth: "90vw",
-            maxHeight: "80vh",
-            cursor: "none",
-          }}
-          onMouseEnter={() => setIsHoveringImage(true)}
-          onMouseLeave={() => setIsHoveringImage(false)}
-        />
-
-
-        {/* Magnifier Lens */}
-        {isDesktop && lensPos && isHoveringImage && imgRef.current && (
-          <div
-            className="magnifier-lens"
-            style={{
-              position: "absolute",
-              width: lensSize,
-              height: lensSize,
-              borderRadius: "50%",
-              pointerEvents: "none",
-              border: "2px solid rgba(255,255,255,0.8)",
-              boxShadow: "0 5px 20px rgba(0,0,0,0.3)",
-              backgroundImage: `url(${images[currentIndex]})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: `${imgRef.current.width * zoom}px ${imgRef.current.height * zoom}px`,
-              left: lensPos.x - lensSize / 2,
-              top: lensPos.y - lensSize / 2,
-              backgroundPosition: `-${lensPos.x * zoom - lensSize / 2}px -${lensPos.y * zoom - lensSize / 2}px`,
-              zIndex: 10,
-            }}
+        <div
+          ref={wrapperRef}
+          className="modal-image-wrapper"
+          onMouseMove={onMouseMove}
+          onMouseLeave={onMouseLeave}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+        >
+          <img
+            ref={imgRef}
+            src={images[currentIndex]}
+            alt={titles[currentIndex]}
+            draggable={false}
           />
-        )}
+
+          {lensPos && img && (
+            <div
+              className="magnifier-lens"
+              style={{
+                width: LENS_SIZE,
+                height: LENS_SIZE,
+                left: lensPos.x - LENS_SIZE / 2,
+                top: lensPos.y - LENS_SIZE / 2,
+                backgroundImage: `url(${images[currentIndex]})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: `${
+                  img.naturalWidth * ZOOM
+                }px ${img.naturalHeight * ZOOM}px`,
+                backgroundPosition: `-${
+                  lensPos.x * scaleX * ZOOM - LENS_SIZE / 2
+                }px -${
+                  lensPos.y * scaleY * ZOOM - LENS_SIZE / 2
+                }px`,
+              }}
+            />
+          )}
+        </div>
 
         <div className="modal-caption">{titles[currentIndex]}</div>
       </div>
