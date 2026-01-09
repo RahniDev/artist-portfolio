@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 body {
   font-family: "Playfair Display", serif;
@@ -298,7 +298,7 @@ a {
 }
 
 .navbar-logo {
-  font-family: "Great Vibes", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 1.4rem;
   font-weight: 400;
   text-decoration: none;
@@ -309,17 +309,22 @@ a {
 .navbar-links {
   list-style: none;
   display: flex;
+  margin: auto;
   gap: 2.5rem;
   padding: 0;
-  margin: 0;
 }
 
-.navbar-links a {
+.navbar-links a, .logout-btn {
   text-decoration: none;
   color: #333;
   font-size: 0.95rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+.logout-btn {
+  background: none;
+  border: none;
+  font-family: "Playfair Display", serif;;
 }
 
 .navbar-links a.active {
@@ -611,13 +616,12 @@ a {
   left: -50%;
   width: 200%;
   height: 100%;
-  background: repeating-linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.02),
-    rgba(0, 0, 0, 0.02) 1px,
-    transparent 1px,
-    transparent 4px
-  ); /* subtle diagonal line texture */
+  background: repeating-linear-gradient(135deg,
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.02) 1px,
+      transparent 1px,
+      transparent 4px);
+  /* subtle diagonal line texture */
   pointer-events: none;
   opacity: 0.3;
 }
@@ -635,8 +639,72 @@ a {
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* ----------------- HAMBURGER ----------------- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger span {
+  width: 22px;
+  height: 2px;
+  background: #111;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Animate to X */
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ----------------- MOBILE NAV ----------------- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .navbar-links.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .navbar-links li {
+    text-align: right;
   }
 }

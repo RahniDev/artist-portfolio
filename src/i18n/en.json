@@ -1,7 +1,9 @@
 {
   "navbar": {
+    "home": "Home",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "auth": "Sign in / Sign up"
   },
   "home": {
     "subtitle": "Contemporary Artist"
@@ -12,5 +14,6 @@
   },
   "contact": {
     "title": "Contact"
-  }
+  },
+  "copyright": "All rights reserved"
 }

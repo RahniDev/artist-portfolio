@@ -1,7 +1,9 @@
 {
   "navbar": {
+        "home": "Accueil",
     "about": "À Propos",
-    "contact": "Contact"
+    "contact": "Contact",
+       "auth": "Se connecter / S’inscrire"
   },
   "home": {
     "subtitle": "Artiste Contemporain Expressif"
@@ -12,5 +14,6 @@
   },
   "contact": {
     "title": "Contact"
-  }
+  },
+   "copyright": "Tous droits réservés."
 }

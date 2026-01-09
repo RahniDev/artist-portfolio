@@ -8,9 +8,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-},
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@supabase/supabase-js": "^2.90.1",
     "i18next": "^25.7.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
