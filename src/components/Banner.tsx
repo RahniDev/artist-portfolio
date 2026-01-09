@@ -3,7 +3,7 @@ export default function ComingSoonBanner() {
     <div className="banner">
       <div className="banner-overlay"></div>
       <p className="banner-text">
-        An e-commerce website will be available shortly to purchase my paintings ✨
+      An e-commerce platform will soon be available for purchasing the Sakari's paintings. ✨
       </p>
     </div>
   );

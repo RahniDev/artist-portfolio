@@ -23,37 +23,43 @@ export default function ImageModal({
   const [lensPos, setLensPos] = useState<{ x: number; y: number } | null>(null);
 
   const LENS_SIZE = 120;
-  const ZOOM = 2.5;
+  const ZOOM = 1.5;
+  const MOBILE_LENS_OFFSET_Y = 80;
   const isDesktop = window.matchMedia("(hover: hover)").matches;
 
   useEffect(() => {
     setLensPos(null);
   }, [currentIndex]);
 
-  /* ---------------- Position calculation ---------------- */
-  const updateLensPosition = (clientX: number, clientY: number) => {
-    const img = imgRef.current;
-    if (!img) return;
+  /*  Position calculation */
+ const updateLensPosition = (clientX: number, clientY: number, isTouch = false) => {
+  const img = imgRef.current;
+  if (!img) return;
 
-    const rect = img.getBoundingClientRect();
+  const imgRect = img.getBoundingClientRect();
 
-    if (
-      clientX < rect.left ||
-      clientX > rect.right ||
-      clientY < rect.top ||
-      clientY > rect.bottom
-    ) {
-      setLensPos(null);
-      return;
-    }
+  // Ignore if outside image
+  if (
+    clientX < imgRect.left ||
+    clientX > imgRect.right ||
+    clientY < imgRect.top ||
+    clientY > imgRect.bottom
+  ) {
+    setLensPos(null);
+    return;
+  }
 
-    setLensPos({
-      x: clientX - rect.left,
-      y: clientY - rect.top,
-    });
-  };
+  let x = clientX - imgRect.left;
+  let y = clientY - imgRect.top;
 
-  /* ---------------- Mouse ---------------- */
+  // On mobile, shift lens up so finger doesn't block it
+  if (isTouch) {
+    y -= MOBILE_LENS_OFFSET_Y;
+  }
+
+  setLensPos({ x, y });
+};
+
   const onMouseMove = (e: React.MouseEvent) => {
     if (!isDesktop) return;
     updateLensPosition(e.clientX, e.clientY);
@@ -61,17 +67,17 @@ export default function ImageModal({
 
   const onMouseLeave = () => setLensPos(null);
 
-  /* ---------------- Touch ---------------- */
-  const onTouchStart = (e: React.TouchEvent) => {
-    const t = e.touches[0];
-    if (t) updateLensPosition(t.clientX, t.clientY);
-  };
+const onTouchStart = (e: React.TouchEvent) => {
+  const t = e.touches[0];
+  if (t) updateLensPosition(t.clientX, t.clientY, true);
+};
 
-  const onTouchMove = (e: React.TouchEvent) => {
-    e.preventDefault();
-    const t = e.touches[0];
-    if (t) updateLensPosition(t.clientX, t.clientY);
-  };
+const onTouchMove = (e: React.TouchEvent) => {
+  e.preventDefault();
+  const t = e.touches[0];
+  if (t) updateLensPosition(t.clientX, t.clientY, true);
+};
+
 
   const onTouchEnd = () => setLensPos(null);
 
