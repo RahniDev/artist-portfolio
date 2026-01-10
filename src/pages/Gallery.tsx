@@ -24,7 +24,7 @@ export default function Gallery() {
         ? "La série"
         : "Series"}</p>
       <div className="pieces-grid">
-        {selectedCollection.pieces.map((piece, index) => (
+        {selectedCollection.pieces.map((piece) => (
       <div className="piece-card">
   <div className="piece-image">
     <img src={piece.image} alt={piece.title} />
