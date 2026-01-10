@@ -177,9 +177,6 @@ a {
   border-radius: 18px;
   color: #fff;
   overflow: hidden;
-  aspect-ratio: 4 / 5;
-  background-size: cover;
-  height: auto;
   cursor: pointer;
   background-size: 105%;
   background-position: center;
@@ -243,8 +240,6 @@ a {
   text-align: center;
   border-radius: 12px;
   background: #fff;
-  aspect-ratio: 4 / 5; 
-  object-fit: cover; 
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: default;
@@ -259,10 +254,10 @@ a {
 
 .piece-card img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 270px;
   object-fit: cover;
-  display: block;
   border-radius: 12px 12px 0 0;
+  display: block;
 }
 
 .piece-card:hover img {
@@ -527,7 +522,6 @@ a {
   background: transparent;
   padding: 1rem;
   max-width: 90vw;
-  object-fit: contain;
   max-height: 90vh;
 }
 
@@ -633,11 +627,7 @@ a {
   left: -50%;
   width: 200%;
   height: 100%;
-  background: repeating-linear-gradient(135deg,
-      rgba(0, 0, 0, 0.02),
-      rgba(0, 0, 0, 0.02) 1px,
-      transparent 1px,
-      transparent 4px);
+  background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02) 1px, transparent 1px, transparent 4px);
   /* subtle diagonal line texture */
   pointer-events: none;
   opacity: 0.3;
