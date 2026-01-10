@@ -15,25 +15,32 @@ export default function Gallery() {
   const images = selectedCollection.pieces.map(p => p.image);
   const titles = selectedCollection.pieces.map(p => p.title);
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+
   return (
     <section className="gallery-page">
       <h2 className="collection-title">
         {selectedCollection.title}
       </h2>
-      <p className="series-text"> {lang.startsWith("fr")
-        ? "La série"
-        : "Series"}</p>
+      <p className="series-text">
+        {lang.startsWith("fr") ? "La série" : "Series"}
+      </p>
+
       <div className="pieces-grid">
-        {selectedCollection.pieces.map((piece) => (
-      <div className="piece-card">
-  <div className="piece-image">
-    <img src={piece.image} alt={piece.title} />
-  </div>
-
-  <h4>{piece.title}</h4>
-  <p>{piece.description[lang]}</p>
-</div>
-
+        {selectedCollection.pieces.map((piece, index) => (
+          <div
+            key={piece.id}
+            className="piece-card"
+            onClick={() => setCurrentIndex(index)}
+          >
+            <div className="piece-image">
+              <img
+                src={piece.image}
+                alt={piece.title}
+              />
+            </div>
+            <h4>{piece.title}</h4>
+            <p>{piece.description[lang]}</p>
+          </div>
         ))}
       </div>
 
