@@ -232,7 +232,7 @@ a {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
 }
 
-/*  PIECE CARDS  */
+/* ----------------- PIECE CARDS  */
 .piece-card {
  display: flex;
   flex-direction: column;
@@ -254,7 +254,6 @@ a {
 
 .piece-image {
   width: 100%;
-  aspect-ratio: 4 / 5;
   overflow: hidden;
 }
 
