@@ -369,7 +369,7 @@ export const collections: ArtCollection[] = [
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: readyForBlastOff
-      }
+      },
     ]
   },
    {

@@ -232,9 +232,9 @@ a {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
 }
 
-/* ----------------- PIECE CARDS ----------------- */
+/*  PIECE CARDS  */
 .piece-card {
-  display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -258,11 +258,11 @@ a {
   overflow: hidden;
 }
 
-.piece-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.piece-card img {
+   width: 100%;
+  height: 320px;        
+  object-fit: contain; 
+  background: #f7f7f7;
 }
 
 .piece-card:hover img {
