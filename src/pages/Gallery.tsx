@@ -25,15 +25,15 @@ export default function Gallery() {
         : "Series"}</p>
       <div className="pieces-grid">
         {selectedCollection.pieces.map((piece, index) => (
-          <div key={piece.id} className="piece-card">
-            <img
-              src={piece.image}
-              alt={piece.title}
-              onClick={() => setCurrentIndex(index)}
-            />
-            <h4>{piece.title}</h4>
-            <p>{piece.description[lang]}</p>
-          </div>
+      <div className="piece-card">
+  <div className="piece-image">
+    <img src={piece.image} alt={piece.title} />
+  </div>
+
+  <h4>{piece.title}</h4>
+  <p>{piece.description[lang]}</p>
+</div>
+
         ))}
       </div>
 
