@@ -8,10 +8,12 @@ import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
 import BackToTop from "./components/BackToTop";
 import Banner from "./components/Banner"
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <>
+    <ScrollToTop />
       <Banner />
       <Navbar />
       <Routes>
