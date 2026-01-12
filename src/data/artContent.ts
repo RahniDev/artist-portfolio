@@ -57,13 +57,23 @@ import monsieur6 from "../assets/art/monsieur6.jpg";
 import soIncrediblyBound from "../assets/art/so-incredibly-bound.jpg";
 import courageOfTheShaken from "../assets/art/courage-of-the-shaken.jpg";
 import readyForBlastOff from "../assets/art/ready-for-blast-off.jpg"
-import hoveringTheShadowOfSelf from "../assets/art/hovering-the-shadow-of-self.jpg"
+import theShadow from "../assets/art/the-shadow.jpg"
+import lurking from '../assets/art/lurking.jpg'
 
 export const collections: ArtCollection[] = [
   {
     id: "memory",
     title:  "Memory",
     pieces: [
+       {
+        id: "lurking",
+        title: "Lurking",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: lurking
+      },
       {
         id: "before-birth",
         title: "Before birth",
@@ -524,14 +534,23 @@ export const collections: ArtCollection[] = [
         image: courageOfTheShaken
       },
        {
-        id: "hovering-the-shadow-of-self",
-        title: "Hovering the shadow of self",
+        id: "the-shadow",
+        title: "The shadow",
         description: {
           en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
-        image: hoveringTheShadowOfSelf
+        image: theShadow
       }
+      // {
+      //   id: "too-deep-to-ever-return",
+      //   title: "Too deep to ever return",
+      //   description: {
+      //     en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+      //     fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+      //   },
+      //   image: tooDeepToEverReturn
+      // }
     ]
   },
    {
