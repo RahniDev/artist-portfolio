@@ -59,8 +59,26 @@ import courageOfTheShaken from "../assets/art/courage-of-the-shaken.jpg";
 import readyForBlastOff from "../assets/art/ready-for-blast-off.jpg"
 import theShadow from "../assets/art/the-shadow.jpg"
 import lurking from '../assets/art/lurking.jpg'
+import somewhereElse from '../assets/art/somewhere-else.jpg'
+import theVoid from '../assets/art/the-void.jpg'
+import theDualisticMind from '../assets/art/the-dualistic-mind.jpg'
 
 export const collections: ArtCollection[] = [
+   {
+    id: "reality",
+    title:  "Reality",
+    pieces: [
+       {
+        id: "the-dualistic-mind",
+        title: "The dualistic mind",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: theDualisticMind
+      }
+    ]
+  },
   {
     id: "memory",
     title:  "Memory",
@@ -221,6 +239,15 @@ export const collections: ArtCollection[] = [
     id: "solitude",
     title: "Solitude",
     pieces: [
+       {
+        id: "somewhere-else",
+        title: "Somewhere else",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "36 x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: somewhereElse
+      },
       {
         id: "no-words",
         title: "No words",
@@ -299,6 +326,15 @@ export const collections: ArtCollection[] = [
     id: "worlds-and-dimensions",
     title: "Worlds & Dimensions",
     pieces: [
+       {
+        id: "the-void",
+        title: "The void",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: theVoid
+      },
       {
         id: "",
         title: "Only one half belongs",

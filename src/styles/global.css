@@ -171,6 +171,7 @@ a {
 }
 
 /* COLLECTION CARDS */
+/* COLLECTION CARDS */
 .collection-card {
   position: relative;
   height: 340px;
@@ -178,10 +179,12 @@ a {
   color: #fff;
   overflow: hidden;
   cursor: pointer;
-  background-size: 105%;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #111; /* fallback safety */
   filter: saturate(0.95) contrast(0.95);
-  transition: transform 0.35s ease, box-shadow 0.35s ease, background-size 0.35s ease;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .collection-card::before {
@@ -197,7 +200,11 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.1)
+  );
   z-index: 0;
   transition: opacity 0.35s ease;
 }
@@ -210,10 +217,19 @@ a {
   z-index: 1;
 }
 
-.collection-overlay h3 {
-  font-size: 1.5rem;
-  margin: 0 0 0.5rem 0;
+.collection-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.25);
 }
+
+.collection-card:hover::before {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.25)
+  );
+}
+
 
 .collection-cta {
   font-size: 0.8rem;
@@ -222,15 +238,6 @@ a {
   opacity: 0.85;
 }
 
-.collection-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.25);
-  background-size: 112%;
-}
-
-.collection-card:hover::before {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
-}
 
 /*  PIECE CARDS  */
 .piece-card {
