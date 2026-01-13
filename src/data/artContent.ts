@@ -62,12 +62,24 @@ import lurking from '../assets/art/lurking.jpg'
 import somewhereElse from '../assets/art/somewhere-else.jpg'
 import theVoid from '../assets/art/the-void.jpg'
 import theDualisticMind from '../assets/art/the-dualistic-mind.jpg'
+import tooDeepToEverReturn from '../assets/art/too-deep-return.jpg'
+import unlearning from '../assets/art/unlearning.jpg'
+import whereAmI from '../assets/art/where-am-i.jpg'
 
 export const collections: ArtCollection[] = [
    {
     id: "reality",
     title:  "Reality",
     pieces: [
+        {
+        id: "unlearning",
+        title: "Unlearning",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+        },
+        image: unlearning
+      },
        {
         id: "the-dualistic-mind",
         title: "The dualistic mind",
@@ -327,6 +339,15 @@ export const collections: ArtCollection[] = [
     title: "Worlds & Dimensions",
     pieces: [
        {
+        id: "where-am-i",
+        title: "Where am I?",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: whereAmI
+      },
+       {
         id: "the-void",
         title: "The void",
         description: {
@@ -515,6 +536,15 @@ export const collections: ArtCollection[] = [
     id: "darker-depths",
     title: "Darker Depths",
     pieces: [
+       {
+        id: "too-deep-to-ever-return",
+        title: "Too deep to ever return",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and ink",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et encre"
+        },
+        image: tooDeepToEverReturn
+      },
       {
         id: "above-or-below",
         title: "Above or below",
