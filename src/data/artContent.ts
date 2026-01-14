@@ -676,7 +676,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-2",
-        title: "Monsieur No. 2",
+        title: "Le détective",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
