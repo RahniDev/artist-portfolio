@@ -667,7 +667,7 @@ export const collections: ArtCollection[] = [
     pieces: [
       {
         id: "monsieur-1",
-        title: "Monsieur No. 1",
+        title: "Le Cordonnier",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -676,7 +676,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-2",
-        title: "Le détective",
+        title: "Le Détective",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -685,7 +685,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-3",
-        title: "Monsieur No. 3",
+        title: "Le Violoniste",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -694,7 +694,7 @@ export const collections: ArtCollection[] = [
       },
       {
         id: "monsieur-4",
-        title: "Monsieur No. 4",
+        title: "Le Penseur",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -703,7 +703,7 @@ export const collections: ArtCollection[] = [
       },
        {
         id: "monsieur-5",
-        title: "Monsieur No. 5",
+        title: "Le Flutiste",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
@@ -712,7 +712,7 @@ export const collections: ArtCollection[] = [
       },
        {
         id: "monsieur-6",
-        title: "Monsieur No. 6",
+        title: "Le Tailleur",
         description: {
           en: "21cm x 29.7cm\r\n 100% cotton premium paper\r\n Watercolour painting",
           fr: "21cm x 29.7cm\r\n Papier premium 100 % coton\r\n Aquarelle"
