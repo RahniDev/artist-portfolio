@@ -6,10 +6,10 @@ import forgiveRemember from "../assets/art/forgive-remember.jpg";
 import ancestralSignificance from "../assets/art/ancestral-significance.jpg";
 import accessSubconscious from "../assets/art/access-subconscious.jpg";
 import tangledWool from "../assets/art/tangled-wool.jpg";
-import trueOrFalse from "../assets/art/true-or-false.jpg";
-import howManyLives from "../assets/art/how-many-lives.jpg";
+import trueOrFalse from "../assets/art/true-or-false.webp";
+import howManyLives from "../assets/art/how-many-lives.webp";
 import timeForMe from "../assets/art/time-for-me.jpg";
-import outwardFrustration from "../assets/art/outward-frustration.jpg";
+import outwardFrustration from "../assets/art/outward-frustration.webp";
 import diminishingFear from "../assets/art/diminishing-fear.jpg";
 import unboxBuried from "../assets/art/unbox-buried.jpg";
 import overwhelmingBeautiful from "../assets/art/overwhelming-beautiful.jpg";
@@ -28,7 +28,7 @@ import consenquences from "../assets/art/consequences.jpg";
 import enterIfYouDare from "../assets/art/enter-if-you-dare.jpg";
 import stopAtEachLevel from "../assets/art/stop-at-each-level.jpg";
 import noAccess from "../assets/art/no-access.jpg";
-import whenYoureReady from "../assets/art/when-youre-ready.jpg";
+import whenYoureReady from "../assets/art/when-youre-ready.webp";
 import softlyVanishing from "../assets/art/softly-vanishing.jpg";
 import nowRest from "../assets/art/now-rest.jpg";
 import imWaiting from "../assets/art/im-waiting.jpg";
@@ -43,11 +43,11 @@ import findTheSource from "../assets/art/find-the-source.jpg";
 import aboveOrBelow from "../assets/art/above-or-below.jpg";
 import hauntingThoughts from "../assets/art/haunting-thoughts.jpg";
 import amIReal from "../assets/art/am-i-real.jpg";
-import endangeredSilence from "../assets/art/endangered-silence.jpg"; 
-import innerChild from "../assets/art/inner-child.jpg";
+import endangeredSilence from "../assets/art/endangered-silence.jpg";
+import innerChild from "../assets/art/inner-child.webp";
 import play from "../assets/art/play.jpg";
 import exploringTheBigWorld from "../assets/art/exploring-the-big-world.jpg";
-import aSprinklingOfMagic from "../assets/art/a-sprinkling-of-magic.jpg";
+import aSprinklingOfMagic from "../assets/art/a-sprinkling-of-magic.webp";
 import monsieur1 from "../assets/art/monsieur1.jpg";
 import monsieur2 from "../assets/art/monsieur2.jpg";
 import monsieur3 from "../assets/art/monsieur3.jpg";
@@ -57,201 +57,21 @@ import monsieur6 from "../assets/art/monsieur6.jpg";
 import soIncrediblyBound from "../assets/art/so-incredibly-bound.jpg";
 import courageOfTheShaken from "../assets/art/courage-of-the-shaken.jpg";
 import readyForBlastOff from "../assets/art/ready-for-blast-off.jpg"
-import theShadow from "../assets/art/the-shadow.jpg"
-import lurking from '../assets/art/lurking.jpg'
-import somewhereElse from '../assets/art/somewhere-else.jpg'
-import theVoid from '../assets/art/the-void.jpg'
-import theDualisticMind from '../assets/art/the-dualistic-mind.jpg'
-import tooDeepToEverReturn from '../assets/art/too-deep-return.jpg'
-import unlearning from '../assets/art/unlearning.jpg'
-import whereAmI from '../assets/art/where-am-i.jpg'
+// import theShadow from "../assets/art/the-shadow.webp"
+import lurking from '../assets/art/lurking.webp'
+import somewhereElse from '../assets/art/somewhere-else.webp'
+import theVoid from '../assets/art/the-void.webp'
+import theDualisticMind from '../assets/art/the-dualistic-mind.webp'
+import tooDeepToEverReturn from '../assets/art/too-deep-return.webp'
+import unlearning from '../assets/art/unlearning.webp'
+import whereAmI from '../assets/art/where-am-i.webp'
 
 export const collections: ArtCollection[] = [
-   {
-    id: "reality",
-    title:  "Reality",
-    pieces: [
-        {
-        id: "unlearning",
-        title: "Unlearning",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
-        },
-        image: unlearning
-      },
-       {
-        id: "the-dualistic-mind",
-        title: "The dualistic mind",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: theDualisticMind
-      }
-    ]
-  },
-  {
-    id: "memory",
-    title:  "Memory",
-    pieces: [
-       {
-        id: "lurking",
-        title: "Lurking",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: lurking
-      },
-      {
-        id: "before-birth",
-        title: "Before birth",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: beforeBirth
-      },
-      {
-        id: "structure-of-the-mind",
-        title: "Structure of the mind",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: structureMind
-      },
-      {
-        id: "forgive-to-remember",
-        title: "Forgive to remember",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: forgiveRemember
-      },
-      {
-        id: "ancestral-significance",
-        title: "Ancestral Significance",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: ancestralSignificance
-      },
-      {
-        id: "access-the-subconscious",
-        title: "Access the Subconscious",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: accessSubconscious
-      },
-      {
-        id: "tangled-wool",
-        title: "Tangled Wool",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: tangledWool
-      },
-      {
-        id: "true-or-false",
-        title: "True or false",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: trueOrFalse
-      },
-      {
-        id: "how-many-lives",
-        title: "How many lives?",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: howManyLives
-      },
-    ]
-  },
-  {
-    id: "emotions",
-    title: "Emotions",
-    pieces: [
-      {
-        id: "time-for-me",
-        title: "Time for me",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and other media",
-          fr: "30cm x 42cm\r\nPapier Arches 100 % coton\r\nAquarelle et autres médiums"
-        },
-        image: timeForMe
-      },
-      {
-        id: "outward-frustration",
-        title: "Outward frustration",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: outwardFrustration
-      },
-      {
-        id: "fear-is-diminishing",
-        title: "Fear is diminishing",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: diminishingFear
-      },
-      {
-        id: "unbox-the-buried",
-        title: "Unbox the Buried",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: unboxBuried
-      },
-      {
-        id: "overwhelming-yet-beautiful",
-        title: "Overwhelming yet beautiful",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: overwhelmingBeautiful
-      },
-      {
-        id: "the-rhythm-of-sensation",
-        title: "The Rhythm of Sensation",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: rhythmSensation
-      },
-      {
-        id: "apples-or-oranges",
-        title: "Apples or oranges",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: applesOranges
-      }
-    ]
-  },
   {
     id: "solitude",
     title: "Solitude",
     pieces: [
-       {
+      {
         id: "somewhere-else",
         title: "Somewhere else",
         description: {
@@ -338,7 +158,7 @@ export const collections: ArtCollection[] = [
     id: "worlds-and-dimensions",
     title: "Worlds & Dimensions",
     pieces: [
-       {
+      {
         id: "where-am-i",
         title: "Where am I?",
         description: {
@@ -347,7 +167,7 @@ export const collections: ArtCollection[] = [
         },
         image: whereAmI
       },
-       {
+      {
         id: "the-void",
         title: "The void",
         description: {
@@ -439,104 +259,11 @@ export const collections: ArtCollection[] = [
       },
     ]
   },
-   {
-    id: "guidance",
-    title: "Guidance",
-    pieces: [
-      {
-        id: "waiting",
-        title: "Waiting",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: imWaiting
-      },
-      {
-        id: "sitting-for-days",
-        title: "Sitting for days",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: sittingForDays
-      },
-      {
-        id: "i-cant-reach-you",
-        title: "I can't reach you",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: iCantReachYou
-      },
-      {
-        id: "from-where",
-        title: "From where?",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour painting",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
-        },
-        image: fromWhere
-      }
-    ]
-  },
-   {
-    id: "vibration",
-    title: "Vibration",
-    pieces: [
-      {
-        id: "directional",
-        title: "Directional",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: directional
-      },
-      {
-        id: "a-busy-cafe",
-        title: "A busy cafe",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: aBusyCafe
-      },
-      {
-        id: "immersion",
-        title: "Immersion",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: immersion
-      },
-      {
-        id: "powerful",
-        title: "Powerful",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: powerful
-      },
-      {
-        id: "find-the-source",
-        title: "Find the source",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: findTheSource
-      }
-    ]
-  },
-   {
+  {
     id: "darker-depths",
     title: "Darker Depths",
     pieces: [
-       {
+      {
         id: "too-deep-to-ever-return",
         title: "Too deep to ever return",
         description: {
@@ -590,7 +317,7 @@ export const collections: ArtCollection[] = [
         },
         image: soIncrediblyBound
       },
-       {
+      {
         id: "courage-of-the-shaken",
         title: "Courage of the shaken",
         description: {
@@ -599,15 +326,15 @@ export const collections: ArtCollection[] = [
         },
         image: courageOfTheShaken
       },
-       {
-        id: "the-shadow",
-        title: "The shadow",
-        description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: theShadow
-      }
+      // {
+      //   id: "the-shadow",
+      //   title: "The shadow",
+      //   description: {
+      //     en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+      //     fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+      //   },
+      //   image: theShadow
+      // }
       // {
       //   id: "too-deep-to-ever-return",
       //   title: "Too deep to ever return",
@@ -619,7 +346,280 @@ export const collections: ArtCollection[] = [
       // }
     ]
   },
-   {
+  {
+    id: "memory",
+    title: "Memory",
+    pieces: [
+      {
+        id: "lurking",
+        title: "Lurking",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: lurking
+      },
+      {
+        id: "before-birth",
+        title: "Before birth",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: beforeBirth
+      },
+      {
+        id: "structure-of-the-mind",
+        title: "Structure of the mind",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: structureMind
+      },
+      {
+        id: "forgive-to-remember",
+        title: "Forgive to remember",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: forgiveRemember
+      },
+      {
+        id: "ancestral-significance",
+        title: "Ancestral Significance",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: ancestralSignificance
+      },
+      {
+        id: "access-the-subconscious",
+        title: "Access the Subconscious",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: accessSubconscious
+      },
+      {
+        id: "tangled-wool",
+        title: "Tangled Wool",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: tangledWool
+      },
+      {
+        id: "true-or-false",
+        title: "True or false",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: trueOrFalse
+      },
+      {
+        id: "how-many-lives",
+        title: "How many lives?",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: howManyLives
+      },
+    ]
+  },
+  {
+    id: "guidance",
+    title: "Guidance",
+    pieces: [
+      {
+        id: "waiting",
+        title: "Waiting",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: imWaiting
+      },
+      {
+        id: "sitting-for-days",
+        title: "Sitting for days",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: sittingForDays
+      },
+      {
+        id: "i-cant-reach-you",
+        title: "I can't reach you",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: iCantReachYou
+      },
+      {
+        id: "from-where",
+        title: "From where?",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour painting",
+          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
+        },
+        image: fromWhere
+      }
+    ]
+  },
+  {
+    id: "vibration",
+    title: "Vibration",
+    pieces: [
+      {
+        id: "directional",
+        title: "Directional",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: directional
+      },
+      {
+        id: "a-busy-cafe",
+        title: "A busy cafe",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: aBusyCafe
+      },
+      {
+        id: "immersion",
+        title: "Immersion",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: immersion
+      },
+      {
+        id: "powerful",
+        title: "Powerful",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: powerful
+      },
+      {
+        id: "find-the-source",
+        title: "Find the source",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
+          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: findTheSource
+      }
+    ]
+  },
+  {
+    id: "reality",
+    title: "Reality",
+    pieces: [
+      {
+        id: "unlearning",
+        title: "Unlearning",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+        },
+        image: unlearning
+      },
+      {
+        id: "the-dualistic-mind",
+        title: "The dualistic mind",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: theDualisticMind
+      }
+    ]
+  },
+  {
+    id: "emotions",
+    title: "Emotions",
+    pieces: [
+      {
+        id: "time-for-me",
+        title: "Time for me",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and other media",
+          fr: "30cm x 42cm\r\nPapier Arches 100 % coton\r\nAquarelle et autres médiums"
+        },
+        image: timeForMe
+      },
+      {
+        id: "outward-frustration",
+        title: "Outward frustration",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: outwardFrustration
+      },
+      {
+        id: "fear-is-diminishing",
+        title: "Fear is diminishing",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: diminishingFear
+      },
+      {
+        id: "unbox-the-buried",
+        title: "Unbox the Buried",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: unboxBuried
+      },
+      {
+        id: "overwhelming-yet-beautiful",
+        title: "Overwhelming yet beautiful",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: overwhelmingBeautiful
+      },
+      {
+        id: "the-rhythm-of-sensation",
+        title: "The Rhythm of Sensation",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: rhythmSensation
+      },
+      {
+        id: "apples-or-oranges",
+        title: "Apples or oranges",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour painting",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: applesOranges
+      }
+    ]
+  },
+  {
     id: "essence",
     title: "Essence",
     pieces: [
@@ -661,7 +661,7 @@ export const collections: ArtCollection[] = [
       },
     ]
   },
-    {
+  {
     id: "french-vintage",
     title: "French Vintage",
     pieces: [
@@ -701,7 +701,7 @@ export const collections: ArtCollection[] = [
         },
         image: monsieur4
       },
-       {
+      {
         id: "monsieur-5",
         title: "Le Flutiste",
         description: {
@@ -710,7 +710,7 @@ export const collections: ArtCollection[] = [
         },
         image: monsieur5
       },
-       {
+      {
         id: "monsieur-6",
         title: "Le Tailleur",
         description: {

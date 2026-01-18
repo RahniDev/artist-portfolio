@@ -39,7 +39,7 @@ return (
         <p>
           {lang.startsWith("fr")
             ? "Pour les galeries, conservateurs et commissaires d’exposition."
-            : "For galleries, curators, and exhibition inquiries."}
+            : "For galleries, curators, and exhibition enquiries."}
         </p>
       </header>
 
