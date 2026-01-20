@@ -1,10 +1,10 @@
 import type { ArtCollection } from "../types";
 
-import beforeBirth from "../assets/art/before-birth.jpg";
-import structureMind from "../assets/art/structure-mind.jpg";
+import beforeBirth from "../assets/art/before-birth.webp";
+import structureMind from "../assets/art/structure-mind.webp";
 import forgiveRemember from "../assets/art/forgive-remember.jpg";
-import ancestralSignificance from "../assets/art/ancestral-significance.jpg";
-import accessSubconscious from "../assets/art/access-subconscious.jpg";
+import ancestralSignificance from "../assets/art/ancestral-significance.webp";
+import accessSubconscious from "../assets/art/access-subconscious.webp";
 import tangledWool from "../assets/art/tangled-wool.webp";
 import trueOrFalse from "../assets/art/true-or-false.webp";
 import howManyLives from "../assets/art/how-many-lives.webp";
@@ -13,16 +13,16 @@ import outwardFrustration from "../assets/art/outward-frustration.webp";
 import diminishingFear from "../assets/art/diminishing-fear.jpg";
 import unboxBuried from "../assets/art/unbox-buried.webp";
 import overwhelmingBeautiful from "../assets/art/overwhelming-beautiful.jpg";
-import rhythmSensation from "../assets/art/rhythm-sensation.jpg";
-import applesOranges from "../assets/art/apples-oranges.jpg";
+import rhythmSensation from "../assets/art/rhythm-sensation.webp";
+import applesOranges from "../assets/art/apples-oranges.webp";
 import noWords from "../assets/art/no-words.jpg";
 import stillnessEarth from "../assets/art/stillness-earth.jpg";
-import theCaveSilence from "../assets/art/the-cave-of-silence.jpg";
+import theCaveSilence from "../assets/art/the-cave-of-silence.webp";
 import pleaseSurroundMe from "../assets/art/please-surround-me.jpg";
 import iAccept from "../assets/art/i-accept.jpg";
 import illusionOfSecurity from "../assets/art/illusion-of-security.jpg";
-import emergingThoughts from "../assets/art/emerging-thoughts.jpg";
-import thoughtsAtMidnight from "../assets/art/thoughts-at-midnight.jpg";
+import emergingThoughts from "../assets/art/emerging-thoughts.webp";
+import thoughtsAtMidnight from "../assets/art/thoughts-at-midnight.webp";
 import onlyOneHalfBelongs from "../assets/art/only-one-half-belongs.jpg";
 import consenquences from "../assets/art/consequences.jpg";
 import enterIfYouDare from "../assets/art/enter-if-you-dare.jpg";
@@ -36,13 +36,13 @@ import sittingForDays from "../assets/art/sitting-for-days.jpg";
 import iCantReachYou from "../assets/art/i-cant-reach-you.jpg";
 import fromWhere from "../assets/art/from-where.jpg";
 import directional from "../assets/art/directional.jpg";
-import aBusyCafe from "../assets/art/a-busy-cafe.jpg";
+import aBusyCafe from "../assets/art/a-busy-cafe.webp";
 import immersion from "../assets/art/immersion.jpg";
 import powerful from "../assets/art/powerful.jpg";
 import findTheSource from "../assets/art/find-the-source.jpg";
-import aboveOrBelow from "../assets/art/above-or-below.jpg";
+import aboveOrBelow from "../assets/art/above-or-below.webp";
 import hauntingThoughts from "../assets/art/haunting-thoughts.jpg";
-import amIReal from "../assets/art/am-i-real.jpg";
+import amIReal from "../assets/art/am-i-real.webp";
 import endangeredSilence from "../assets/art/endangered-silence.jpg";
 import innerChild from "../assets/art/inner-child.webp";
 import play from "../assets/art/play.jpg";
@@ -65,6 +65,7 @@ import theDualisticMind from '../assets/art/the-dualistic-mind.webp'
 import tooDeepToEverReturn from '../assets/art/too-deep-return.webp'
 import unlearning from '../assets/art/unlearning.webp'
 import whereAmI from '../assets/art/where-am-i.webp'
+import loveDrawsMeBackInside from '../assets/art/loveDrawsMeBackInside.webp'
 
 export const collections: ArtCollection[] = [
   {
@@ -659,6 +660,15 @@ export const collections: ArtCollection[] = [
         },
         image: aSprinklingOfMagic
       },
+       {
+        id: "love-draws-me-back-inside",
+        title: "Love draws me back inside",
+        description: {
+          en: "55cm x 46cm \r\n100% linen canvas 450g/m²\r\n Acrylic",
+          fr: "55cm x 46cm\r\n Toile 100% lin 450g/m²\r\n Acrylique"
+        },
+        image: loveDrawsMeBackInside
+      }
     ]
   },
   {
