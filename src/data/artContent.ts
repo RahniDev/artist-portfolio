@@ -2,7 +2,7 @@ import type { ArtCollection } from "../types";
 
 import beforeBirth from "../assets/art/before-birth.webp";
 import structureMind from "../assets/art/structure-mind.webp";
-import forgiveRemember from "../assets/art/forgive-remember.jpg";
+import forgiveRemember from "../assets/art/forgive-remember.webp";
 import ancestralSignificance from "../assets/art/ancestral-significance.webp";
 import accessSubconscious from "../assets/art/access-subconscious.webp";
 import tangledWool from "../assets/art/tangled-wool.webp";
@@ -10,43 +10,43 @@ import trueOrFalse from "../assets/art/true-or-false.webp";
 import howManyLives from "../assets/art/how-many-lives.webp";
 import timeForMe from "../assets/art/time-for-me.webp";
 import outwardFrustration from "../assets/art/outward-frustration.webp";
-import diminishingFear from "../assets/art/diminishing-fear.jpg";
+import diminishingFear from "../assets/art/diminishing-fear.webp";
 import unboxBuried from "../assets/art/unbox-buried.webp";
-import overwhelmingBeautiful from "../assets/art/overwhelming-beautiful.jpg";
+import overwhelmingBeautiful from "../assets/art/overwhelming-beautiful.webp";
 import rhythmSensation from "../assets/art/rhythm-sensation.webp";
 import applesOranges from "../assets/art/apples-oranges.webp";
-import noWords from "../assets/art/no-words.jpg";
-import stillnessEarth from "../assets/art/stillness-earth.jpg";
+import noWords from "../assets/art/no-words.webp";
+import stillnessEarth from "../assets/art/stillness-earth.webp";
 import theCaveSilence from "../assets/art/the-cave-of-silence.webp";
-import pleaseSurroundMe from "../assets/art/please-surround-me.jpg";
-import iAccept from "../assets/art/i-accept.jpg";
-import illusionOfSecurity from "../assets/art/illusion-of-security.jpg";
+import pleaseSurroundMe from "../assets/art/please-surround-me.webp";
+import iAccept from "../assets/art/i-accept.webp";
+import illusionOfSecurity from "../assets/art/illusion-of-security.webp";
 import emergingThoughts from "../assets/art/emerging-thoughts.webp";
 import thoughtsAtMidnight from "../assets/art/thoughts-at-midnight.webp";
-import onlyOneHalfBelongs from "../assets/art/only-one-half-belongs.jpg";
-import consenquences from "../assets/art/consequences.jpg";
-import enterIfYouDare from "../assets/art/enter-if-you-dare.jpg";
-import stopAtEachLevel from "../assets/art/stop-at-each-level.jpg";
-import noAccess from "../assets/art/no-access.jpg";
+import onlyOneHalfBelongs from "../assets/art/only-one-half-belongs.webp";
+import consenquences from "../assets/art/consequences.webp";
+import enterIfYouDare from "../assets/art/enter-if-you-dare.webp";
+import stopAtEachLevel from "../assets/art/stop-at-each-level.webp";
+import noAccess from "../assets/art/no-access.webp";
 import whenYoureReady from "../assets/art/when-youre-ready.webp";
-import softlyVanishing from "../assets/art/softly-vanishing.jpg";
-import nowRest from "../assets/art/now-rest.jpg";
-import imWaiting from "../assets/art/im-waiting.jpg";
-import sittingForDays from "../assets/art/sitting-for-days.jpg";
-import iCantReachYou from "../assets/art/i-cant-reach-you.jpg";
-import fromWhere from "../assets/art/from-where.jpg";
-import directional from "../assets/art/directional.jpg";
+import softlyVanishing from "../assets/art/softly-vanishing.webp";
+import nowRest from "../assets/art/now-rest.webp";
+import imWaiting from "../assets/art/im-waiting.webp";
+import sittingForDays from "../assets/art/sitting-for-days.webp";
+import iCantReachYou from "../assets/art/i-cant-reach-you.webp";
+import fromWhere from "../assets/art/from-where.webp";
+import directional from "../assets/art/directional.webp";
 import aBusyCafe from "../assets/art/a-busy-cafe.webp";
-import immersion from "../assets/art/immersion.jpg";
-import powerful from "../assets/art/powerful.jpg";
-import findTheSource from "../assets/art/find-the-source.jpg";
+import immersion from "../assets/art/immersion.webp";
+import powerful from "../assets/art/powerful.webp";
+import findTheSource from "../assets/art/find-the-source.webp";
 import aboveOrBelow from "../assets/art/above-or-below.webp";
-import hauntingThoughts from "../assets/art/haunting-thoughts.jpg";
+import hauntingThoughts from "../assets/art/haunting-thoughts.webp";
 import amIReal from "../assets/art/am-i-real.webp";
-import endangeredSilence from "../assets/art/endangered-silence.jpg";
+import endangeredSilence from "../assets/art/endangered-silence.webp";
 import innerChild from "../assets/art/inner-child.webp";
-import play from "../assets/art/play.jpg";
-import exploringTheBigWorld from "../assets/art/exploring-the-big-world.jpg";
+import play from "../assets/art/play.webp";
+import exploringTheBigWorld from "../assets/art/exploring-the-big-world.webp";
 import aSprinklingOfMagic from "../assets/art/a-sprinkling-of-magic.webp";
 import monsieur1 from "../assets/art/monsieur1.webp";
 import monsieur2 from "../assets/art/monsieur2.webp";
@@ -54,10 +54,10 @@ import monsieur3 from "../assets/art/monsieur3.webp";
 import monsieur4 from "../assets/art/monsieur4.webp";
 import monsieur5 from "../assets/art/monsieur5.webp";
 import monsieur6 from "../assets/art/monsieur6.webp";
-import soIncrediblyBound from "../assets/art/so-incredibly-bound.jpg";
-import courageOfTheShaken from "../assets/art/courage-of-the-shaken.jpg";
-import readyForBlastOff from "../assets/art/ready-for-blast-off.jpg"
-// import theShadow from "../assets/art/the-shadow.webp"
+import soIncrediblyBound from "../assets/art/so-incredibly-bound.webp";
+import courageOfTheShaken from "../assets/art/courage-of-the-shaken.webp";
+import readyForBlastOff from "../assets/art/ready-for-blast-off.webp"
+import accumulationOfIdentities from "../assets/art/accumulation-of-identities.webp"
 import lurking from '../assets/art/lurking.webp'
 import somewhereElse from '../assets/art/somewhere-else.webp'
 import theVoid from '../assets/art/the-void.webp'
@@ -535,8 +535,8 @@ export const collections: ArtCollection[] = [
         id: "unlearning",
         title: "Unlearning",
         description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
         },
         image: unlearning
       },
@@ -548,6 +548,15 @@ export const collections: ArtCollection[] = [
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: theDualisticMind
+      },
+      {
+        id: "accumulation-of-identities",
+        title: "Accumulation of Identities",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+        },
+        image: accumulationOfIdentities
       }
     ]
   },
