@@ -65,7 +65,13 @@ import theDualisticMind from '../assets/art/the-dualistic-mind.webp'
 import tooDeepToEverReturn from '../assets/art/too-deep-return.webp'
 import unlearning from '../assets/art/unlearning.webp'
 import whereAmI from '../assets/art/where-am-i.webp'
-import loveDrawsMeBackInside from '../assets/art/loveDrawsMeBackInside.webp'
+import loveDrawsMeBackInside from '../assets/art/love-draws-me-back-inside.webp'
+import whatAmI from '../assets/art/what-am-i.webp'
+import aComplexMachine from '../assets/art/a-complex-machine.webp'
+import disappearingAndReappearing from '../assets/art/disappearing-and-reappearing.webp'
+import filledToTheMax from '../assets/art/filled-to-the-max.webp'
+import nowImHereNowWhat from '../assets/art/now-im-here-now-what.webp'
+import walkingThroughTheDesert from '../assets/art/walking-through-the-desert.webp'
 
 export const collections: ArtCollection[] = [
   {
@@ -432,6 +438,15 @@ export const collections: ArtCollection[] = [
         },
         image: howManyLives
       },
+      {
+        id: "disappearing-and-reappearing",
+        title: "Disappearing and reappearing",
+        description: {
+          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
+          fr: "40cm x 40cm\r\n Toile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées\r\n Acrylique"
+        },
+        image: disappearingAndReappearing
+      },
     ]
   },
   {
@@ -473,6 +488,15 @@ export const collections: ArtCollection[] = [
           fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
         },
         image: fromWhere
+      },
+      {
+        id: "now-im-here-now-what",
+        title: "Now I'm here, now what?",
+        description: {
+          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
+          fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées\r\n Acrylique"
+        },
+        image: nowImHereNowWhat
       }
     ]
   },
@@ -557,6 +581,15 @@ export const collections: ArtCollection[] = [
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
         },
         image: accumulationOfIdentities
+      },
+      {
+        id: "a-complex-machine",
+        title: "A complex machine",
+        description: {
+          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
+          fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées \r\n Acrylique"
+        },
+        image: aComplexMachine
       }
     ]
   },
@@ -626,6 +659,15 @@ export const collections: ArtCollection[] = [
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: applesOranges
+      },
+      {
+        id: "filled-to-the-max",
+        title: "Filled to the max",
+        description: {
+          en: "38cm x 46cm\r\n 100% linen canvas\r\n Acrylic, long fiber hemp paper and fabric",
+          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
+        },
+        image: filledToTheMax
       }
     ]
   },
@@ -669,15 +711,39 @@ export const collections: ArtCollection[] = [
         },
         image: aSprinklingOfMagic
       },
-       {
+      {
         id: "love-draws-me-back-inside",
         title: "Love draws me back inside",
         description: {
-          en: "55cm x 46cm \r\n100% linen canvas 450g/m²\r\n Acrylic",
-          fr: "55cm x 46cm\r\n Toile 100% lin 450g/m²\r\n Acrylique"
+          en: "55cm x 46cm \r\n100% linen canvas \r\n Acrylic",
+          fr: "55cm x 46cm\r\n Toile 100% lin\r\n Acrylique"
         },
         image: loveDrawsMeBackInside
+      },
+      {
+        id: "what-am-i",
+        title: "What am I?",
+        description: {
+          en: "46cm x 55cm\r\n100% linen canvas \r\n Acrylic & charcoal",
+          fr: "46cm x 55cm\r\n Toile 100% lin\r\n Acrylique et fusain"
+        },
+        image: whatAmI
       }
+    ]
+  },
+  {
+    id: "the-unknown",
+    title: "The Unknown",
+    pieces: [
+      {
+        id: "walking-through-the-desert",
+        title: "Walking through the desert",
+        description: {
+          en: "38cm x 46cm\r\n100% linen canvas \r\nAcrylic & fabric",
+          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique & tissu"
+        },
+        image: walkingThroughTheDesert
+      },
     ]
   },
   {
