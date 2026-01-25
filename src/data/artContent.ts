@@ -72,6 +72,8 @@ import disappearingAndReappearing from '../assets/art/disappearing-and-reappeari
 import filledToTheMax from '../assets/art/filled-to-the-max.webp'
 import nowImHereNowWhat from '../assets/art/now-im-here-now-what.webp'
 import walkingThroughTheDesert from '../assets/art/walking-through-the-desert.webp'
+import whySoManyTimes from '../assets/art/why-so-many-times.webp'
+import hereForABriefMoment from '../assets/art/here-for-a-brief-moment.webp'
 
 export const collections: ArtCollection[] = [
   {
@@ -590,6 +592,15 @@ export const collections: ArtCollection[] = [
           fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées \r\n Acrylique"
         },
         image: aComplexMachine
+      },
+       {
+        id: "here-for-a-brief-moment",
+        title: "Here for a brief moment",
+        description: {
+          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic",
+          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique"
+        },
+        image: hereForABriefMoment
       }
     ]
   },
@@ -668,7 +679,16 @@ export const collections: ArtCollection[] = [
           fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
         },
         image: filledToTheMax
-      }
+      },
+      {
+        id: "why-so-many-times",
+        title: "Why so many times?",
+        description: {
+          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic and charcoal",
+          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique et fusain"
+        },
+        image: whySoManyTimes
+      },
     ]
   },
   {
