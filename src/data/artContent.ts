@@ -79,6 +79,7 @@ import courageOfAWarrior from '../assets/art/courage-of-a-warrior.webp'
 import languageOveruse from '../assets/art/language-overuse.webp'
 import liveLikeAHuman from '../assets/art/live-like-a-human.webp'
 import justAThought from '../assets/art/just-a-thought.webp'
+import untouched from '../assets/art/untouched.webp'
 
 export const collections: ArtCollection[] = [
   {
@@ -728,10 +729,19 @@ export const collections: ArtCollection[] = [
     title: "Essence",
     pieces: [
       {
+        id: "untouched",
+        title: "Untouched",
+        description: {
+          en: "73cm x 116cm \r\n100% linen canvas\r\n Acrylic",
+          fr: "73cm x 116cm\r\n Toile 100% lin\r\n Acrylique"
+        },
+        image: untouched
+      },
+      {
         id: "what-am-i",
         title: "What am I?",
         description: {
-          en: "46cm x 55cm\r\n100% linen canvas \r\n Acrylic & charcoal",
+          en: "46cm x 55cm\r\n100% linen canvas\r\n Acrylic & charcoal",
           fr: "46cm x 55cm\r\n Toile 100% lin\r\n Acrylique et fusain"
         },
         image: whatAmI
@@ -758,7 +768,7 @@ export const collections: ArtCollection[] = [
         id: "exploring-the-big-world",
         title: "Exploring the big world",
         description: {
-          en: "26cm x 36cm 100%\r\n cotton premium paper\r\n Watercolour painting",
+          en: "26cm x 36cm \r\n100% cotton premium paper\r\n Watercolour painting",
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: exploringTheBigWorld
@@ -776,7 +786,7 @@ export const collections: ArtCollection[] = [
         id: "love-draws-me-back-inside",
         title: "Love draws me back inside",
         description: {
-          en: "55cm x 46cm \r\n100% linen canvas \r\n Acrylic",
+          en: "55cm x 46cm \r\n100% linen canvas\r\n Acrylic",
           fr: "55cm x 46cm\r\n Toile 100% lin\r\n Acrylique"
         },
         image: loveDrawsMeBackInside
@@ -791,7 +801,7 @@ export const collections: ArtCollection[] = [
         id: "live-like-a-human",
         title: "Live like a human",
         description: {
-          en: "50cm x 61cm \r\n100% linen canvas \r\nMixed media & handmade paper",
+          en: "50cm x 61cm \r\n100% linen canvas\r\n Mixed media & handmade paper",
           fr: "50cm x 61cm\r\n Toile 100 % lin\r\n Médias mixtes et papier fait main"
         },
         image: liveLikeAHuman
@@ -806,7 +816,7 @@ export const collections: ArtCollection[] = [
         id: "courage-of-a-warrior",
         title: "Courage of a warrior",
         description: {
-          en: "92cm x 60cm\r\n100% linen canvas \r\nAcrylic",
+          en: "92cm x 60cm\r\n 100% linen canvas\r\n Acrylic",
           fr: "92cm x 60cm\r\n Toile 100 % lin\r\n Acrylique"
         },
         image: courageOfAWarrior
@@ -815,7 +825,7 @@ export const collections: ArtCollection[] = [
         id: "walking-through-the-desert",
         title: "Walking through the desert",
         description: {
-          en: "38cm x 46cm\r\n100% linen canvas \r\nAcrylic & fabric",
+          en: "38cm x 46cm\r\n100% linen canvas\r\nAcrylic & fabric",
           fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique & tissu"
         },
         image: walkingThroughTheDesert

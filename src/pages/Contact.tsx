@@ -38,8 +38,8 @@ return (
         <h2>{t("contact.title")}</h2>
         <p>
           {lang.startsWith("fr")
-            ? "Pour les galeries, conservateurs et commissaires d’exposition."
-            : "For galleries, curators, and exhibition enquiries."}
+            ? "Si vous êtes intéressé par l'achat de mes œuvres, veuillez me contacter ci-dessous."
+            : "If you're interested in purchasing my artwork, please contact me below."}
         </p>
       </header>
 
