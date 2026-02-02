@@ -1,10 +1,12 @@
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import Newsletter from "./Newsletter";
 
 export default function Footer() {
   const { t } = useTranslation();
   return (
     <footer className="footer">
+      <Newsletter />
       <div className="footer-inner">
         <p>© {new Date().getFullYear()} Sakari De-Meis. {t("copyright")}</p>
 

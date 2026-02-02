@@ -286,6 +286,69 @@ a {
   line-height: 1.4;
   color: #555;
 }
+.newsletter-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 360px;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 0.55rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #a1a1a1;
+  background: #a1a1a1;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.newsletter-input::placeholder {
+  color: #fff;
+}
+
+.newsletter-input:focus {
+  outline: none;
+  border-color: #6ee7b7; /* soft accent */
+}
+
+.newsletter-button {
+  padding: 0.55rem 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  color: black;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.newsletter-button:hover {
+  background: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.newsletter-button:active {
+  transform: translateY(0);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-button {
+    width: 100%;
+  }
+}
 
 /* ----------------- NAVBAR ----------------- */
 .navbar {
@@ -614,6 +677,55 @@ a {
 .modal-image-wrapper {
   position: relative;
   touch-action: none;
+}
+.subscribed {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: radial-gradient(
+    circle at top,
+    rgba(110, 231, 183, 0.15),
+    transparent 60%
+  );
+}
+
+.subscribed-card {
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 2.25rem;
+  border-radius: 14px;
+  background: #0f0f0f;
+  color: #ffffff;
+  border: 1px solid #1f1f1f;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribed h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.subscribed p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cfcfcf;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .subscribed-card {
+    padding: 1.75rem;
+  }
+
+  .subscribed h1 {
+    font-size: 1.4rem;
+  }
 }
 
 /* Banner */
