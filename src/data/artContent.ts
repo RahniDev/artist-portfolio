@@ -80,6 +80,16 @@ import languageOveruse from '../assets/art/language-overuse.webp'
 import liveLikeAHuman from '../assets/art/live-like-a-human.webp'
 import justAThought from '../assets/art/just-a-thought.webp'
 import untouched from '../assets/art/untouched.webp'
+import trustTheProcess from '../assets/art/trust-the-process.webp'
+import neitherHereNorThere from '../assets/art/neither-here-nor-there.webp'
+import theDoorWasAlwaysOpen from '../assets/art/the-door-was-always-open.webp'
+import theScreen from '../assets/art/the-screen.webp'
+import softlyWhisperingToMe from '../assets/art/softly-whispering-to-me.webp'
+import embraceWhatComesThroughYou from '../assets/art/embrace-what-comes-through-you.webp'
+import sittingWithBreath from '../assets/art/sitting-with-breath.webp'
+import witnessingTheArchitectureMoveToTheLeft from '../assets/art/witnessing-the-architecture-move-to-the-left.webp'
+import tooIntenseForWords from '../assets/art/too-intense-for-words.webp'
+import paintYourselfAndShowMe from '../assets/art/paint-yourself-and-shows-me.webp'
 
 export const collections: ArtCollection[] = [
   {
@@ -173,6 +183,33 @@ export const collections: ArtCollection[] = [
     id: "worlds-and-dimensions",
     title: "Worlds & Dimensions",
     pieces: [
+      {
+        id: "neither-here-nor-there",
+        title: "Vast vibrations in an empty room",
+        description: {
+          en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
+          fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
+        },
+        image: neitherHereNorThere
+      },
+       {
+        id: "the-door-was-always-open",
+        title: "The door was always open",
+        description: {
+          en: "73cm x 116cm\r\n 100% linen canvas\r\n Acrylic",
+          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Acrylique"
+        },
+        image: theDoorWasAlwaysOpen
+      },
+       {
+        id: "the-screen",
+        title: "The screen",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: theScreen
+      },
       {
         id: "just-a-thought",
         title: "Just a thought",
@@ -375,6 +412,15 @@ export const collections: ArtCollection[] = [
     title: "Memory",
     pieces: [
       {
+        id: "witnessing-the-architecture-move-to-the-left",
+        title: "Witnessing the architecture move to the left",
+        description: {
+          en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
+          fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
+        },
+        image: witnessingTheArchitectureMoveToTheLeft
+      },
+      {
         id: "lurking",
         title: "Lurking",
         description: {
@@ -471,6 +517,24 @@ export const collections: ArtCollection[] = [
     title: "Guidance",
     pieces: [
       {
+        id: "trust-the-process",
+        title: "Trust the process",
+        description: {
+          en: "30cm x 40cm\r\n 100% cotton premium paper\r\n Oil pastel",
+          fr: "30cm x 40cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
+        },
+        image: trustTheProcess
+      },
+        {
+        id: "softly-whispering-to-me",
+        title: "Softly whispering to me",
+        description: {
+          en: "73cm x 116cm\r\n 100% linen canvas\r\n Mixed media",
+          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Médias mixtes"
+        },
+        image: softlyWhisperingToMe
+      },
+      {
         id: "now-im-here-now-what",
         title: "Now I'm here, now what?",
         description: {
@@ -521,6 +585,15 @@ export const collections: ArtCollection[] = [
     id: "vibration",
     title: "Vibration",
     pieces: [
+      {
+        id: "too-intense-for-words",
+        title: "Too intense for words",
+        description: {
+          en: "73cm x 116cm\r\n 100% linen canvas \r\n Acrylic",
+          fr: "73cm x 116cm\r\n Toile 100 % lin \r\n Acrylique"
+        },
+        image: tooIntenseForWords
+      },
       {
         id: "vast-vibrations-in-an-empty-room",
         title: "Vast vibrations in an empty room",
@@ -641,6 +714,24 @@ export const collections: ArtCollection[] = [
     id: "emotions",
     title: "Emotions",
     pieces: [
+      {
+        id: "embrace-what-comes-through-you",
+        title: "Embrace what comes through you",
+        description: {
+          en: "30cm x 40cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "30cm x 40cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+        },
+        image: embraceWhatComesThroughYou
+      },
+       {
+        id: "sitting-with-breath",
+        title: "Sitting with breath",
+        description: {
+          en: "61cm x 46cm\r\n 100% cotton Arches paper\r\n Mixed media",
+          fr: "61cm x 46cm\r\n Papier Arches 100 % coton\r\n Médias mixtes"
+        },
+        image: sittingWithBreath
+      },
       {
         id: "filled-to-the-max",
         title: "Filled to the max",
@@ -797,6 +888,15 @@ export const collections: ArtCollection[] = [
     id: "truth",
     title: "Truth",
     pieces: [
+       {
+        id: "paint-yourself-and-show-me",
+        title: "Paint yourself and show me",
+        description: {
+          en: "73cm x 116cm \r\n100% linen canvas\r\n Mixed media",
+          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Médias mixtes"
+        },
+        image: paintYourselfAndShowMe
+      },
       {
         id: "live-like-a-human",
         title: "Live like a human",
