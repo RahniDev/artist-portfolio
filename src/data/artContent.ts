@@ -185,7 +185,7 @@ export const collections: ArtCollection[] = [
     pieces: [
       {
         id: "neither-here-nor-there",
-        title: "Vast vibrations in an empty room",
+        title: "Neither here nor there",
         description: {
           en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
           fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
