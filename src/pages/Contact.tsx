@@ -36,11 +36,6 @@ return (
     <div className="contact-inner">
       <header className="contact-header">
         <h2>{t("contact.title")}</h2>
-        <p>
-          {lang.startsWith("fr")
-            ? "Si vous êtes intéressé par l'achat de mes œuvres, veuillez me contacter ci-dessous."
-            : "If you're interested in purchasing my artwork, please contact me below."}
-        </p>
       </header>
 
       <form
