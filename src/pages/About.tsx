@@ -12,8 +12,7 @@ export default function About() {
         className="profile-circle"
       />
       <div className="about-text">
-      <h1>{t("about.title")}</h1>
-      <h2>Sakari De-Meis</h2>
+      <h1>Sakari De-Meis</h1>
       <p>{t("about.bio")}</p>
       </div>
     </section>
