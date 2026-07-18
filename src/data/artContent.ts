@@ -194,8 +194,8 @@ export const collections: ArtCollection[] = [
         id: "no-words",
         title: "No words",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: noWords
       },
