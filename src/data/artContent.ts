@@ -94,7 +94,7 @@ export const collections: ArtCollection[] = [
         },
         image: untitled26
       },
-       {
+      {
         id: "here-for-a-brief-moment",
         title: "Here for a brief moment",
         description: {
@@ -103,7 +103,7 @@ export const collections: ArtCollection[] = [
         },
         image: hereForABriefMoment
       },
-        {
+      {
         id: "accumulation-of-identities",
         title: "Accumulation of Identities",
         description: {
@@ -112,7 +112,7 @@ export const collections: ArtCollection[] = [
         },
         image: accumulationOfIdentities
       },
-       {
+      {
         id: "the-cave-of-silence",
         title: "The Cave of Silence",
         description: {
@@ -121,7 +121,7 @@ export const collections: ArtCollection[] = [
         },
         image: theCaveSilence
       },
-       {
+      {
         id: "a-complex-machine",
         title: "A complex machine",
         description: {
@@ -206,15 +206,6 @@ export const collections: ArtCollection[] = [
     title: "Vibration",
     pieces: [
       {
-        id: "untitled-20",
-        title: "Untitled",
-        description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: untitled20
-      },
-      {
         id: "untitled-18",
         title: "Untitled",
         description: {
@@ -222,6 +213,15 @@ export const collections: ArtCollection[] = [
           fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled18
+      },
+      {
+        id: "untitled-20",
+        title: "Untitled",
+        description: {
+          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled20
       },
       {
         id: "vast-vibrations-in-an-empty-room",
@@ -275,15 +275,6 @@ export const collections: ArtCollection[] = [
         image: untitled23
       },
       {
-        id: "untitled-16",
-        title: "Untitled",
-        description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: untitled16
-      },
-      {
         id: "untitled-15",
         title: "Untitled",
         description: {
@@ -291,6 +282,15 @@ export const collections: ArtCollection[] = [
           fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled15
+      },
+      {
+        id: "untitled-16",
+        title: "Untitled",
+        description: {
+          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled16
       }
     ]
   },
@@ -326,33 +326,6 @@ export const collections: ArtCollection[] = [
         image: untitled2
       },
       {
-        id: "emerging-thoughts",
-        title: "Emerging Thoughts",
-        description: {
-          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: emergingThoughts
-      },
-      {
-        id: "consequences",
-        title: "Consequences",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton premium paper\r\n Watercolour and gouache",
-          fr: "30cm x 42cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
-        },
-        image: consenquences
-      },
-      {
-        id: "the-dualistic-mind",
-        title: "The dualistic mind",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: theDualisticMind
-      },
-      {
         id: "untitled-7",
         title: "Untitled",
         description: {
@@ -371,6 +344,24 @@ export const collections: ArtCollection[] = [
         image: beforeBirth
       },
       {
+        id: "untitled-28",
+        title: "Untitled",
+        description: {
+          en: "38cm x 46cm\r\n 100% linen canvas\r\n Acrylic, long fiber hemp paper and fabric",
+          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
+        },
+        image: untitled28
+      },
+      {
+        id: "the-dualistic-mind",
+        title: "The dualistic mind",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: theDualisticMind
+      },
+      {
         id: "softly-vanishing",
         title: "Softly vanishing",
         description: {
@@ -380,13 +371,22 @@ export const collections: ArtCollection[] = [
         image: softlyVanishing
       },
       {
-        id: "untitled-28",
-        title: "Untitled",
+        id: "consequences",
+        title: "Consequences",
         description: {
-          en: "38cm x 46cm\r\n 100% linen canvas\r\n Acrylic, long fiber hemp paper and fabric",
-          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
+          en: "30cm x 42cm\r\n 100% cotton premium paper\r\n Watercolour and gouache",
+          fr: "30cm x 42cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
         },
-        image: untitled28
+        image: consenquences
+      },
+      {
+        id: "emerging-thoughts",
+        title: "Emerging Thoughts",
+        description: {
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: emergingThoughts
       },
     ]
   },
@@ -404,15 +404,6 @@ export const collections: ArtCollection[] = [
         image: untitled14
       },
       {
-        id: "please-surround-me",
-        title: "Please surround me",
-        description: {
-          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: pleaseSurroundMe
-      },
-      {
         id: "softly-whispering-to-me",
         title: "Softly whispering to me",
         description: {
@@ -420,6 +411,15 @@ export const collections: ArtCollection[] = [
           fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Médias mixtes"
         },
         image: softlyWhisperingToMe
+      },
+      {
+        id: "somewhere-else",
+        title: "Somewhere else",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36 x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: somewhereElse
       },
       {
         id: "now-im-here-now-what",
@@ -431,14 +431,14 @@ export const collections: ArtCollection[] = [
         image: nowImHereNowWhat
       },
       {
-        id: "somewhere-else",
-        title: "Somewhere else",
+        id: "please-surround-me",
+        title: "Please surround me",
         description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36 x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: somewhereElse
-      },
+        image: pleaseSurroundMe
+      }
     ]
   },
   {
@@ -677,15 +677,6 @@ export const collections: ArtCollection[] = [
     title: "Space",
     pieces: [
       {
-        id: "untitled-32",
-        title: "Untitled",
-        description: {
-          en: "30cm x 30cm\r\n100% cotton premium paper\r\n Watercolour",
-          fr: "30cm x 30cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: untitled32
-      },
-      {
         id: "untitled-31",
         title: "Untitled",
         description: {
@@ -694,6 +685,15 @@ export const collections: ArtCollection[] = [
         },
         image: untitled31
       },
+      {
+        id: "untitled-32",
+        title: "Untitled",
+        description: {
+          en: "30cm x 30cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "30cm x 30cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled32
+      }
     ]
   },
   {
@@ -751,6 +751,24 @@ export const collections: ArtCollection[] = [
     id: "form",
     title: "Form",
     pieces: [
+      {
+        id: "self-portrait",
+        title: "Self-Portrait",
+        description: {
+          en: "46cm x 61cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: selfPortrait
+      },
+      {
+        id: "untitled-1",
+        title: "Untitled",
+        description: {
+          en: "41cm x 31cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "41cm x 31cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled1
+      },
       {
         id: "alchemical-explosion",
         title: "Alchemical Explosion",
@@ -814,7 +832,7 @@ export const collections: ArtCollection[] = [
         },
         image: india
       },
-       {
+      {
         id: "language-overuse",
         title: "Language overuse",
         description: {
@@ -831,24 +849,6 @@ export const collections: ArtCollection[] = [
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: diminishingFear
-      },
-      {
-        id: "self-portrait",
-        title: "Self-Portrait",
-        description: {
-          en: "46cm x 61cm\r\n100% cotton premium paper\r\n Watercolour",
-          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: selfPortrait
-      },
-      {
-        id: "untitled-1",
-        title: "Untitled",
-        description: {
-          en: "41cm x 31cm\r\n100% cotton premium paper\r\n Watercolour",
-          fr: "41cm x 31cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: untitled1
       },
       {
         id: "so-incredibly-bound",
