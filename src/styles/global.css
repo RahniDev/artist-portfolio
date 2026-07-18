@@ -65,7 +65,7 @@ a {
   }
 }
 
-/* ----------------- HERO ----------------- */
+/* HERO */
 .hero {
   text-align: center;
   padding: 0 1rem 4rem 1rem;
@@ -84,6 +84,7 @@ a {
   margin-top: 0.5rem;
 }
 
+/* ABOUT */
 .about {
   max-width: 1200px;
   margin: 0 auto;
@@ -170,7 +171,6 @@ a {
 }
 
 /* COLLECTION CARDS */
-/* COLLECTION CARDS */
 .collection-card {
   position: relative;
   height: 340px;
@@ -234,14 +234,12 @@ a {
   opacity: 0.85;
 }
 
-
 /*  PIECE CARDS  */
 .piece-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-radius: 12px;
   background: #fff;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -262,9 +260,9 @@ a {
 
 .piece-card img {
   width: 100%;
-  height: 320px;
   object-fit: contain;
   background: #f7f7f7;
+  cursor: pointer;
 }
 
 .piece-card:hover img {
@@ -286,6 +284,8 @@ a {
   line-height: 1.4;
   color: #555;
 }
+
+/* NEWSLETTER */
 .newsletter-title {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -312,7 +312,7 @@ a {
 
 .newsletter-input:focus {
   outline: none;
-  border-color: #6ee7b7; /* soft accent */
+  border-color: #6ee7b7;
 }
 
 .newsletter-button {
@@ -350,7 +350,7 @@ a {
   }
 }
 
-/* ----------------- NAVBAR ----------------- */
+/* NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -406,7 +406,7 @@ a {
   padding-bottom: 2px;
 }
 
-/* ----------------- LANG TOGGLE ----------------- */
+/* LANG TOGGLE */
 .lang-toggle {
   display: flex;
   align-items: center;
@@ -442,7 +442,7 @@ a {
   pointer-events: none;
 }
 
-/* ----------------- CONTACT ----------------- */
+/* CONTACT */
 .contact {
   padding: 6rem 2rem;
 }
