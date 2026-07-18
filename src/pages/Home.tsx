@@ -27,8 +27,8 @@ export default function Home() {
                   <h3>{col.title}</h3>
                   <span className="collection-cta">
                     {lang.startsWith("fr")
-                      ? "Voir la série"
-                      : "View series"}
+                      ? "Voir la collection"
+                      : "View collection"}
                   </span>
                 </div>
               </Link>

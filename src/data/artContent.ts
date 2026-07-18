@@ -30,7 +30,7 @@ import whySoManyTimes from '../assets/art/why-so-many-times.webp'
 import hereForABriefMoment from '../assets/art/here-for-a-brief-moment.webp'
 import vastVibrationsInAnEmptyRoom from '../assets/art/vast-vibrations-in-an-empty-room.webp'
 import courageOfAWarrior from '../assets/art/courage-of-a-warrior.webp'
-import languageOveruse from '../assets/art/language-overuse.webp'
+import languageOveruse from '../assets/art/form/language-overuse.webp'
 import liveLikeAHuman from '../assets/art/live-like-a-human.webp'
 import justAThought from '../assets/art/just-a-thought.webp'
 import untouched from '../assets/art/untouched.webp'
@@ -94,23 +94,41 @@ export const collections: ArtCollection[] = [
         },
         image: untitled26
       },
-      {
-        id: "language-overuse",
-        title: "Language overuse",
+       {
+        id: "here-for-a-brief-moment",
+        title: "Here for a brief moment",
         description: {
-          en: "61cm x 50cm\r\n 100% linen canvas\r\n Mixed media",
-          fr: "61cm x 50cm\r\n Toile 100 % lin\r\n Médias mixtes"
+          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic",
+          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique"
         },
-        image: languageOveruse
+        image: hereForABriefMoment
       },
-      {
-        id: "the-illusion-of-security",
-        title: "The Illusion of Security",
+        {
+        id: "accumulation-of-identities",
+        title: "Accumulation of Identities",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+        },
+        image: accumulationOfIdentities
+      },
+       {
+        id: "the-cave-of-silence",
+        title: "The Cave of Silence",
         description: {
           en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
           fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: illusionOfSecurity
+        image: theCaveSilence
+      },
+       {
+        id: "a-complex-machine",
+        title: "A complex machine",
+        description: {
+          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
+          fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées \r\n Acrylique"
+        },
+        image: aComplexMachine
       },
       {
         id: "stillness-of-the-earth",
@@ -122,40 +140,13 @@ export const collections: ArtCollection[] = [
         image: stillnessEarth
       },
       {
-        id: "a-complex-machine",
-        title: "A complex machine",
-        description: {
-          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
-          fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées \r\n Acrylique"
-        },
-        image: aComplexMachine
-      },
-      {
-        id: "the-cave-of-silence",
-        title: "The Cave of Silence",
+        id: "the-illusion-of-security",
+        title: "The Illusion of Security",
         description: {
           en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
           fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: theCaveSilence
-      },
-      {
-        id: "here-for-a-brief-moment",
-        title: "Here for a brief moment",
-        description: {
-          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic",
-          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique"
-        },
-        image: hereForABriefMoment
-      },
-      {
-        id: "accumulation-of-identities",
-        title: "Accumulation of Identities",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
-        },
-        image: accumulationOfIdentities
+        image: illusionOfSecurity
       }
     ]
   },
@@ -822,6 +813,15 @@ export const collections: ArtCollection[] = [
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
         },
         image: india
+      },
+       {
+        id: "language-overuse",
+        title: "Language overuse",
+        description: {
+          en: "61cm x 50cm\r\n 100% linen canvas\r\n Mixed media",
+          fr: "61cm x 50cm\r\n Toile 100 % lin\r\n Médias mixtes"
+        },
+        image: languageOveruse
       },
       {
         id: "fear-is-diminishing",

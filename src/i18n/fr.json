@@ -1,9 +1,9 @@
 {
   "navbar": {
-        "home": "Accueil",
+    "home": "Accueil",
     "about": "À Propos",
     "contact": "Contact",
-       "auth": "Se connecter / S’inscrire"
+    "auth": "Se connecter / S’inscrire"
   },
   "home": {
     "subtitle": "Artiste Contemporain Expressif"
@@ -12,8 +12,7 @@
     "bio": "Je travaille principalement à l'aquarelle, ainsi qu'à l'acrylique et aux techniques mixtes. Mes tableaux ne sont généralement pas planifiés ni conçus à l'avance; ils naissent de l'observation plutôt que d'une intention."
   },
   "contact": {
-    "title": "Contact",
-    "description": "Pour les galeries, conservateurs et commissaires d’exposition."
+    "title": "Contact"
   },
-   "copyright": "Tous droits réservés."
+  "copyright": "Tous droits réservés."
 }
