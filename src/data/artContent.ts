@@ -4,7 +4,6 @@ import beforeBirth from "../assets/art/before-birth.webp";
 import trueOrFalse from "../assets/art/true-or-false.webp";
 import timeForMe from "../assets/art/time-for-me.webp";
 import diminishingFear from "../assets/art/diminishing-fear.webp";
-import rhythmSensation from "../assets/art/rhythm-sensation.webp";
 import noWords from "../assets/art/no-words.webp";
 import stillnessEarth from "../assets/art/stillness-earth.webp";
 import theCaveSilence from "../assets/art/the-cave-of-silence.webp";
@@ -13,27 +12,12 @@ import iAccept from "../assets/art/i-accept.webp";
 import illusionOfSecurity from "../assets/art/illusion-of-security.webp";
 import emergingThoughts from "../assets/art/emerging-thoughts.webp";
 import thoughtsAtMidnight from "../assets/art/thoughts-at-midnight.webp";
-import onlyOneHalfBelongs from "../assets/art/only-one-half-belongs.webp";
 import consenquences from "../assets/art/consequences.webp";
-import enterIfYouDare from "../assets/art/enter-if-you-dare.webp";
-import stopAtEachLevel from "../assets/art/stop-at-each-level.webp";
-import noAccess from "../assets/art/no-access.webp";
-import whenYoureReady from "../assets/art/when-youre-ready.webp";
 import softlyVanishing from "../assets/art/softly-vanishing.webp";
-import nowRest from "../assets/art/now-rest.webp";
 import waiting from "../assets/art/waiting.webp";
 import sittingForDays from "../assets/art/sitting-for-days.webp";
-import iCantReachYou from "../assets/art/i-cant-reach-you.webp";
-import fromWhere from "../assets/art/from-where.webp";
 import directional from "../assets/art/directional.webp";
-import aboveOrBelow from "../assets/art/above-or-below.webp";
-import hauntingThoughts from "../assets/art/haunting-thoughts.webp";
 import amIReal from "../assets/art/am-i-real.webp";
-import endangeredSilence from "../assets/art/endangered-silence.webp";
-import innerChild from "../assets/art/inner-child.webp";
-import play from "../assets/art/play.webp";
-import exploringTheBigWorld from "../assets/art/exploring-the-big-world.webp";
-import aSprinklingOfMagic from "../assets/art/a-sprinkling-of-magic.webp";
 import soIncrediblyBound from "../assets/art/form/so-incredibly-bound.webp";
 import courageOfTheShaken from "../assets/art/form/courage-of-the-shaken.webp";
 import readyForBlastOff from "../assets/art/ready-for-blast-off.webp"
@@ -43,7 +27,6 @@ import somewhereElse from '../assets/art/somewhere-else.webp'
 import theVoid from '../assets/art/the-void.webp'
 import theDualisticMind from '../assets/art/the-dualistic-mind.webp'
 import tooDeepToEverReturn from '../assets/art/too-deep-return.webp'
-import unlearning from '../assets/art/unlearning.webp'
 import whereAmI from '../assets/art/where-am-i.webp'
 import loveDrawsMeBackInside from '../assets/art/love-draws-me-back-inside.webp'
 import whatAmI from '../assets/art/what-am-i.webp'
@@ -60,10 +43,7 @@ import languageOveruse from '../assets/art/language-overuse.webp'
 import liveLikeAHuman from '../assets/art/live-like-a-human.webp'
 import justAThought from '../assets/art/just-a-thought.webp'
 import untouched from '../assets/art/untouched.webp'
-import trustTheProcess from '../assets/art/trust-the-process.webp'
-import neitherHereNorThere from '../assets/art/neither-here-nor-there.webp'
 import theDoorWasAlwaysOpen from '../assets/art/the-door-was-always-open.webp'
-import theScreen from '../assets/art/the-screen.webp'
 import softlyWhisperingToMe from '../assets/art/softly-whispering-to-me.webp'
 import sittingWithBreath from '../assets/art/sitting-with-breath.webp'
 import tooIntenseForWords from '../assets/art/too-intense-for-words.webp'
@@ -141,15 +121,6 @@ export const collections: ArtCollection[] = [
           fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique"
         },
         image: hereForABriefMoment
-      },
-      {
-        id: "unlearning",
-        title: "Unlearning",
-        description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
-        },
-        image: unlearning
       },
       {
         id: "accumulation-of-identities",
@@ -326,15 +297,6 @@ export const collections: ArtCollection[] = [
     title: "Guidance",
     pieces: [
       {
-        id: "trust-the-process",
-        title: "Trust the process",
-        description: {
-          en: "30cm x 40cm\r\n 100% cotton premium paper\r\n Oil pastel",
-          fr: "30cm x 40cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
-        },
-        image: trustTheProcess
-      },
-      {
         id: "please-surround-me",
         title: "Please surround me",
         description: {
@@ -369,24 +331,6 @@ export const collections: ArtCollection[] = [
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: sittingForDays
-      },
-      {
-        id: "i-cant-reach-you",
-        title: "I can't reach you",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: iCantReachYou
-      },
-      {
-        id: "from-where",
-        title: "From where?",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
-        },
-        image: fromWhere
       },
       {
         id: "somewhere-else",
@@ -440,24 +384,6 @@ export const collections: ArtCollection[] = [
         image: tooDeepToEverReturn
       },
       {
-        id: "above-or-below",
-        title: "Above or below",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: aboveOrBelow
-      },
-      {
-        id: "haunting-thoughts",
-        title: "Haunting thoughts",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: hauntingThoughts
-      },
-      {
         id: "am-i-real",
         title: "Am I real?",
         description: {
@@ -465,15 +391,6 @@ export const collections: ArtCollection[] = [
           fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: amIReal
-      },
-      {
-        id: "endangered-silence",
-        title: "Endangered silence",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: endangeredSilence
       },
       {
         id: "courage-of-the-shaken",
@@ -542,15 +459,6 @@ export const collections: ArtCollection[] = [
     title: "Dimensions",
     pieces: [
       {
-        id: "neither-here-nor-there",
-        title: "Neither here nor there",
-        description: {
-          en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
-          fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
-        },
-        image: neitherHereNorThere
-      },
-      {
         id: "the-door-was-always-open",
         title: "The door was always open",
         description: {
@@ -558,15 +466,6 @@ export const collections: ArtCollection[] = [
           fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Acrylique"
         },
         image: theDoorWasAlwaysOpen
-      },
-      {
-        id: "the-screen",
-        title: "The screen",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: theScreen
       },
       {
         id: "just-a-thought",
@@ -585,60 +484,6 @@ export const collections: ArtCollection[] = [
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: theVoid
-      },
-      {
-        id: "only-one-half-belongs",
-        title: "Only one half belongs",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: onlyOneHalfBelongs
-      },
-      {
-        id: "enter-if-you-dare",
-        title: "Enter if you dare",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: enterIfYouDare
-      },
-      {
-        id: "",
-        title: "Stop at each level",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: stopAtEachLevel
-      },
-      {
-        id: "no-access",
-        title: "No access",
-        description: {
-          en: "30cm x 42.5cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42.5cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: noAccess
-      },
-      {
-        id: "when-youre-ready",
-        title: "When you're ready",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and oil pastel",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et pastel"
-        },
-        image: whenYoureReady
-      },
-      {
-        id: "now-rest",
-        title: "Now rest",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: nowRest
       },
     ]
   },
@@ -698,15 +543,6 @@ export const collections: ArtCollection[] = [
         image: filledToTheMax
       },
       {
-        id: "the-rhythm-of-sensation",
-        title: "The Rhythm of Sensation",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: rhythmSensation
-      },
-      {
         id: "why-so-many-times",
         title: "Why so many times?",
         description: {
@@ -746,15 +582,6 @@ export const collections: ArtCollection[] = [
         image: whatAmI
       },
       {
-        id: "inner-child",
-        title: "Inner child",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: innerChild
-      },
-      {
         id: "sitting-with-breath",
         title: "Sitting with breath",
         description: {
@@ -762,33 +589,6 @@ export const collections: ArtCollection[] = [
           fr: "61cm x 46cm\r\n Papier Arches 100 % coton\r\n Médias mixtes"
         },
         image: sittingWithBreath
-      },
-      {
-        id: "play",
-        title: "Play",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: play
-      },
-      {
-        id: "exploring-the-big-world",
-        title: "Exploring the big world",
-        description: {
-          en: "26cm x 36cm \r\n100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: exploringTheBigWorld
-      },
-      {
-        id: "a-sprinkling-of-magic",
-        title: "A sprinkling of magic",
-        description: {
-          en: "30cm x 42cm \r\n100% cotton Arches paper\r\n Watercolour",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
-        },
-        image: aSprinklingOfMagic
       },
       {
         id: "love-draws-me-back-inside",
