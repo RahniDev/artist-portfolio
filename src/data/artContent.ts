@@ -1,22 +1,17 @@
 import type { ArtCollection } from "../types";
 
 import beforeBirth from "../assets/art/before-birth.webp";
-import trueOrFalse from "../assets/art/true-or-false.webp";
 import timeForMe from "../assets/art/time-for-me.webp";
 import diminishingFear from "../assets/art/diminishing-fear.webp";
 import noWords from "../assets/art/no-words.webp";
 import stillnessEarth from "../assets/art/stillness-earth.webp";
 import theCaveSilence from "../assets/art/the-cave-of-silence.webp";
 import pleaseSurroundMe from "../assets/art/please-surround-me.webp";
-import iAccept from "../assets/art/i-accept.webp";
 import illusionOfSecurity from "../assets/art/illusion-of-security.webp";
 import emergingThoughts from "../assets/art/emerging-thoughts.webp";
-import thoughtsAtMidnight from "../assets/art/thoughts-at-midnight.webp";
 import consenquences from "../assets/art/consequences.webp";
 import softlyVanishing from "../assets/art/softly-vanishing.webp";
 import waiting from "../assets/art/waiting.webp";
-import sittingForDays from "../assets/art/sitting-for-days.webp";
-import directional from "../assets/art/directional.webp";
 import amIReal from "../assets/art/am-i-real.webp";
 import soIncrediblyBound from "../assets/art/form/so-incredibly-bound.webp";
 import courageOfTheShaken from "../assets/art/form/courage-of-the-shaken.webp";
@@ -24,15 +19,12 @@ import readyForBlastOff from "../assets/art/ready-for-blast-off.webp"
 import accumulationOfIdentities from "../assets/art/accumulation-of-identities.webp"
 import lurking from '../assets/art/lurking.webp'
 import somewhereElse from '../assets/art/somewhere-else.webp'
-import theVoid from '../assets/art/the-void.webp'
 import theDualisticMind from '../assets/art/the-dualistic-mind.webp'
-import tooDeepToEverReturn from '../assets/art/too-deep-return.webp'
 import whereAmI from '../assets/art/where-am-i.webp'
 import loveDrawsMeBackInside from '../assets/art/love-draws-me-back-inside.webp'
 import whatAmI from '../assets/art/what-am-i.webp'
 import aComplexMachine from '../assets/art/a-complex-machine.webp'
 import disappearingAndReappearing from '../assets/art/disappearing-and-reappearing.webp'
-import filledToTheMax from '../assets/art/filled-to-the-max.webp'
 import nowImHereNowWhat from '../assets/art/now-im-here-now-what.webp'
 import walkingThroughTheDesert from '../assets/art/walking-through-the-desert.webp'
 import whySoManyTimes from '../assets/art/why-so-many-times.webp'
@@ -49,17 +41,18 @@ import sittingWithBreath from '../assets/art/sitting-with-breath.webp'
 import tooIntenseForWords from '../assets/art/too-intense-for-words.webp'
 import paintYourselfAndShowMe from '../assets/art/paint-yourself-and-shows-me.webp'
 import selfPortrait from '../assets/art/form/self-portrait.webp'
+import alchemicalExplosion from '../assets/art/alchemical-explosion.webp'
+import seoul from '../assets/art/form/seoul.webp'
+import hongKong from '../assets/art/form/hong-kong.webp'
+import tokyo from '../assets/art/form/tokyo.webp'
+import london from '../assets/art/form/london.webp'
 import untitled1 from '../assets/art/form/untitled1.webp'
 import untitled2 from '../assets/art/untitled2.webp'
 import untitled3 from '../assets/art/form/untitled3.webp'
 import untitled4 from '../assets/art/form/untitled4.webp'
-import seoul from '../assets/art/form/seoul.webp'
-import hongKong from '../assets/art/form/hong-kong.webp'
-import tokyo from '../assets/art/form/tokyo.webp'
 import untitled5 from '../assets/art/form/untitled5.webp'
 import untitled6 from '../assets/art/untitled6.webp'
 import untitled7 from '../assets/art/untitled7.webp'
-import london from '../assets/art/form/london.webp'
 import untitled8 from '../assets/art/untitled8.webp'
 import untitled9 from '../assets/art/untitled9.webp'
 import untitled10 from '../assets/art/untitled10.webp'
@@ -79,7 +72,10 @@ import untitled23 from '../assets/art/untitled23.webp'
 import untitled24 from '../assets/art/untitled24.webp'
 import untitled25 from '../assets/art/untitled25.webp'
 import untitled26 from '../assets/art/untitled26.webp'
-import alchemicalExplosion from '../assets/art/alchemical-explosion.webp'
+import untitled27 from '../assets/art/untitled27.webp'
+import untitled28 from '../assets/art/untitled28.webp'
+import untitled29 from '../assets/art/untitled29.webp'
+import untitled30 from '../assets/art/untitled30.webp'
 
 export const collections: ArtCollection[] = [
   {
@@ -201,15 +197,6 @@ export const collections: ArtCollection[] = [
         image: noWords
       },
       {
-        id: "true-or-false",
-        title: "True or false",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: trueOrFalse
-      },
-      {
         id: "disappearing-and-reappearing",
         title: "Disappearing and reappearing",
         description: {
@@ -252,20 +239,11 @@ export const collections: ArtCollection[] = [
         image: vastVibrationsInAnEmptyRoom
       },
       {
-        id: "directional",
-        title: "Directional",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: directional
-      },
-      {
         id: "untitled-6",
         title: "Untitled",
         description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled6
       },
@@ -319,24 +297,6 @@ export const collections: ArtCollection[] = [
           fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled15
-      },
-      {
-        id: "I accept",
-        title: "I accept",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: iAccept
-      },
-      {
-        id: "thoughts-at-midnight",
-        title: "Thoughts at midnight",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: thoughtsAtMidnight
       }
     ]
   },
@@ -402,8 +362,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-7",
         title: "Untitled",
         description: {
-          en: "51cm x 36cm\r\n100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled7
       },
@@ -424,6 +384,15 @@ export const collections: ArtCollection[] = [
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: softlyVanishing
+      },
+      {
+        id: "untitled-28",
+        title: "Untitled",
+        description: {
+          en: "38cm x 46cm\r\n 100% linen canvas\r\n Acrylic, long fiber hemp paper and fabric",
+          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
+        },
+        image: untitled28
       },
     ]
   },
@@ -468,15 +437,6 @@ export const collections: ArtCollection[] = [
         image: nowImHereNowWhat
       },
       {
-        id: "sitting-for-days",
-        title: "Sitting for days",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: sittingForDays
-      },
-      {
         id: "somewhere-else",
         title: "Somewhere else",
         description: {
@@ -504,8 +464,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-9",
         title: "Untitled",
         description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled9
       },
@@ -526,15 +486,6 @@ export const collections: ArtCollection[] = [
           fr: "73cm x 116cm\r\n Toile 100 % lin \r\n Acrylique"
         },
         image: tooIntenseForWords
-      },
-      {
-        id: "too-deep-to-ever-return",
-        title: "Too deep to ever return",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and ink",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et encre"
-        },
-        image: tooDeepToEverReturn
       },
       {
         id: "am-i-real",
@@ -582,10 +533,19 @@ export const collections: ArtCollection[] = [
         id: "untitled-8",
         title: "Untitled",
         description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "46cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled8
+      },
+       {
+        id: "why-so-many-times",
+        title: "Why so many times?",
+        description: {
+          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic and charcoal",
+          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique et fusain"
+        },
+        image: whySoManyTimes
       },
       {
         id: "waiting",
@@ -620,6 +580,24 @@ export const collections: ArtCollection[] = [
     id: "dimensions",
     title: "Dimensions",
     pieces: [
+        {
+        id: "untitled-30",
+        title: "Untitled",
+        description: {
+          en: "31cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "31cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled30
+      },
+       {
+        id: "untitled-29",
+        title: "Untitled",
+        description: {
+          en: "30cm x 30cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "30cm x 30cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled29
+      },
       {
         id: "untitled-10",
         title: "Untitled",
@@ -647,21 +625,21 @@ export const collections: ArtCollection[] = [
         },
         image: justAThought
       },
-      {
-        id: "the-void",
-        title: "The void",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: theVoid
-      },
     ]
   },
   {
     id: "truth",
     title: "Truth",
     pieces: [
+       {
+        id: "untitled-27",
+        title: "Untitled",
+        description: {
+          en: "30cm x 30cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "30cm x 30cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled27
+      },
       {
         id: "where-am-i",
         title: "Where am I?",
@@ -698,30 +676,6 @@ export const collections: ArtCollection[] = [
         },
         image: liveLikeAHuman
       }
-    ]
-  },
-  {
-    id: "emotions",
-    title: "Emotions",
-    pieces: [
-      {
-        id: "filled-to-the-max",
-        title: "Filled to the max",
-        description: {
-          en: "38cm x 46cm\r\n 100% linen canvas\r\n Acrylic, long fiber hemp paper and fabric",
-          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
-        },
-        image: filledToTheMax
-      },
-      {
-        id: "why-so-many-times",
-        title: "Why so many times?",
-        description: {
-          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic and charcoal",
-          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique et fusain"
-        },
-        image: whySoManyTimes
-      },
     ]
   },
   {
@@ -816,8 +770,8 @@ export const collections: ArtCollection[] = [
         id: "london",
         title: "London",
         description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "46cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: london
       },
