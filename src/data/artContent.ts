@@ -14,7 +14,7 @@ import waiting from "../assets/art/waiting.webp";
 import amIReal from "../assets/art/am-i-real.webp";
 import soIncrediblyBound from "../assets/art/form/so-incredibly-bound.webp";
 import courageOfTheShaken from "../assets/art/form/courage-of-the-shaken.webp";
-import readyForBlastOff from "../assets/art/ready-for-blast-off.webp"
+import crippledByEnquiry from "../assets/art/crippledByEnquiry.webp"
 import accumulationOfIdentities from "../assets/art/accumulation-of-identities.webp"
 import lurking from '../assets/art/lurking.webp'
 import somewhereElse from '../assets/art/somewhere-else.webp'
@@ -26,7 +26,7 @@ import aComplexMachine from '../assets/art/a-complex-machine.webp'
 import disappearingAndReappearing from '../assets/art/disappearing-and-reappearing.webp'
 import nowImHereNowWhat from '../assets/art/now-im-here-now-what.webp'
 import walkingThroughTheDesert from '../assets/art/walking-through-the-desert.webp'
-import whySoManyTimes from '../assets/art/why-so-many-times.webp'
+import murkiness from '../assets/art/murkiness.webp'
 import hereForABriefMoment from '../assets/art/here-for-a-brief-moment.webp'
 import vastVibrationsInAnEmptyRoom from '../assets/art/vast-vibrations-in-an-empty-room.webp'
 import courageOfAWarrior from '../assets/art/courage-of-a-warrior.webp'
@@ -209,8 +209,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-18",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "41cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "41cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled18
       },
@@ -269,8 +269,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-23",
         title: "Untitled",
         description: {
-          en: "41cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "41cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "41cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour and gouache",
+          fr: "41cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
         },
         image: untitled23
       },
@@ -398,8 +398,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-14",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "46cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled14
       },
@@ -533,13 +533,13 @@ export const collections: ArtCollection[] = [
         image: untitled8
       },
       {
-        id: "why-so-many-times",
-        title: "Why so many times?",
+        id: "murkiness",
+        title: "Murkiness",
         description: {
           en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic and charcoal",
           fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique et fusain"
         },
-        image: whySoManyTimes
+        image: murkiness
       },
       {
         id: "waiting",
@@ -644,13 +644,13 @@ export const collections: ArtCollection[] = [
         image: whereAmI
       },
       {
-        id: "ready-for-blast-off",
-        title: "Ready for blast off",
+        id: "crippled-by-enquiry",
+        title: "Crippled by enquiry",
         description: {
           en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
           fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
-        image: readyForBlastOff
+        image: crippledByEnquiry
       },
       {
         id: "paint-yourself-and-show-me",
