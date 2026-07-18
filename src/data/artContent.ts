@@ -1,7 +1,6 @@
 import type { ArtCollection } from "../types";
 
 import beforeBirth from "../assets/art/before-birth.webp";
-import timeForMe from "../assets/art/time-for-me.webp";
 import diminishingFear from "../assets/art/diminishing-fear.webp";
 import noWords from "../assets/art/no-words.webp";
 import stillnessEarth from "../assets/art/stillness-earth.webp";
@@ -49,7 +48,7 @@ import london from '../assets/art/form/london.webp'
 import untitled1 from '../assets/art/form/untitled1.webp'
 import untitled2 from '../assets/art/untitled2.webp'
 import untitled3 from '../assets/art/form/untitled3.webp'
-import untitled4 from '../assets/art/form/untitled4.webp'
+import india from '../assets/art/form/india.webp'
 import untitled5 from '../assets/art/form/untitled5.webp'
 import untitled6 from '../assets/art/untitled6.webp'
 import untitled7 from '../assets/art/untitled7.webp'
@@ -76,6 +75,10 @@ import untitled27 from '../assets/art/untitled27.webp'
 import untitled28 from '../assets/art/untitled28.webp'
 import untitled29 from '../assets/art/untitled29.webp'
 import untitled30 from '../assets/art/untitled30.webp'
+import untitled31 from '../assets/art/untitled31.webp'
+import untitled32 from '../assets/art/untitled32.webp'
+import untitled33 from "../assets/art/untitled33.webp";
+import untitled34 from "../assets/art/untitled34.webp";
 
 export const collections: ArtCollection[] = [
   {
@@ -131,8 +134,8 @@ export const collections: ArtCollection[] = [
         id: "the-cave-of-silence",
         title: "The Cave of Silence",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: theCaveSilence
       },
@@ -371,8 +374,8 @@ export const collections: ArtCollection[] = [
         id: "before-birth",
         title: "Before birth",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: beforeBirth
       },
@@ -380,8 +383,8 @@ export const collections: ArtCollection[] = [
         id: "softly-vanishing",
         title: "Softly vanishing",
         description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: softlyVanishing
       },
@@ -413,8 +416,8 @@ export const collections: ArtCollection[] = [
         id: "please-surround-me",
         title: "Please surround me",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: pleaseSurroundMe
       },
@@ -538,7 +541,7 @@ export const collections: ArtCollection[] = [
         },
         image: untitled8
       },
-       {
+      {
         id: "why-so-many-times",
         title: "Why so many times?",
         description: {
@@ -580,7 +583,7 @@ export const collections: ArtCollection[] = [
     id: "dimensions",
     title: "Dimensions",
     pieces: [
-        {
+      {
         id: "untitled-30",
         title: "Untitled",
         description: {
@@ -589,7 +592,7 @@ export const collections: ArtCollection[] = [
         },
         image: untitled30
       },
-       {
+      {
         id: "untitled-29",
         title: "Untitled",
         description: {
@@ -631,7 +634,7 @@ export const collections: ArtCollection[] = [
     id: "truth",
     title: "Truth",
     pieces: [
-       {
+      {
         id: "untitled-27",
         title: "Untitled",
         description: {
@@ -644,8 +647,8 @@ export const collections: ArtCollection[] = [
         id: "where-am-i",
         title: "Where am I?",
         description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: whereAmI
       },
@@ -682,12 +685,39 @@ export const collections: ArtCollection[] = [
     id: "space",
     title: "Space",
     pieces: [
+      {
+        id: "untitled-32",
+        title: "Untitled",
+        description: {
+          en: "30cm x 30cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "30cm x 30cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled32
+      },
+      {
+        id: "untitled-31",
+        title: "Untitled",
+        description: {
+          en: "51cm x 41cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled31
+      },
     ]
   },
   {
     id: "essence",
     title: "Essence",
     pieces: [
+      {
+        id: "untitled-34",
+        title: "Untitled",
+        description: {
+          en: "51cm x 41cm \r\n100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 41cm\r\nPapier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled34
+      },
       {
         id: "untouched",
         title: "Untouched",
@@ -785,13 +815,13 @@ export const collections: ArtCollection[] = [
         image: untitled5
       },
       {
-        id: "untitled-4",
-        title: "Untitled",
+        id: "india",
+        title: "India",
         description: {
           en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and gouache",
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
         },
-        image: untitled4
+        image: india
       },
       {
         id: "fear-is-diminishing",
@@ -839,13 +869,13 @@ export const collections: ArtCollection[] = [
         image: untitled3
       },
       {
-        id: "time-for-me",
-        title: "Time for me",
+        id: "untitled-33",
+        title: "Untitled",
         description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and other media",
-          fr: "30cm x 42cm\r\nPapier Arches 100 % coton\r\nAquarelle et autres médiums"
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and pen",
+          fr: "30cm x 42cm\r\nPapier Arches 100 % coton\r\nAquarelle et stylo"
         },
-        image: timeForMe
+        image: untitled33
       }
     ]
   }
