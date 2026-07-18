@@ -73,12 +73,28 @@ import untitled17 from '../assets/art/untitled17.webp'
 import untitled18 from '../assets/art/untitled18.webp'
 import untitled19 from '../assets/art/untitled19.webp'
 import untitled20 from '../assets/art/untitled20.webp'
+import untitled21 from '../assets/art/untitled21.webp'
+import untitled22 from '../assets/art/untitled22.webp'
+import untitled23 from '../assets/art/untitled23.webp'
+import untitled24 from '../assets/art/untitled24.webp'
+import untitled25 from '../assets/art/untitled25.webp'
+import untitled26 from '../assets/art/untitled26.webp'
+import alchemicalExplosion from '../assets/art/alchemical-explosion.webp'
 
 export const collections: ArtCollection[] = [
   {
     id: "reality",
     title: "Reality",
     pieces: [
+      {
+        id: "untitled-26",
+        title: "Untitled",
+        description: {
+          en: "31cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "31cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled26
+      },
       {
         id: "language-overuse",
         title: "Language overuse",
@@ -148,7 +164,16 @@ export const collections: ArtCollection[] = [
     id: "memory",
     title: "Memory",
     pieces: [
-       {
+      {
+        id: "untitled-21",
+        title: "Untitled",
+        description: {
+          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled21
+      },
+      {
         id: "untitled-11",
         title: "Untitled",
         description: {
@@ -157,7 +182,7 @@ export const collections: ArtCollection[] = [
         },
         image: untitled11
       },
-       {
+      {
         id: "untitled-12",
         title: "Untitled",
         description: {
@@ -199,7 +224,7 @@ export const collections: ArtCollection[] = [
     id: "vibration",
     title: "Vibration",
     pieces: [
-       {
+      {
         id: "untitled-20",
         title: "Untitled",
         description: {
@@ -251,6 +276,33 @@ export const collections: ArtCollection[] = [
     title: "Solitude",
     pieces: [
       {
+        id: "untitled-25",
+        title: "Untitled",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled25
+      },
+      {
+        id: "untitled-24",
+        title: "Untitled",
+        description: {
+          en: "51cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled24
+      },
+      {
+        id: "untitled-23",
+        title: "Untitled",
+        description: {
+          en: "41cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "41cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled23
+      },
+      {
         id: "untitled-16",
         title: "Untitled",
         description: {
@@ -259,7 +311,7 @@ export const collections: ArtCollection[] = [
         },
         image: untitled16
       },
-        {
+      {
         id: "untitled-15",
         title: "Untitled",
         description: {
@@ -292,6 +344,15 @@ export const collections: ArtCollection[] = [
     id: "thresholds",
     title: "Thresholds",
     pieces: [
+      {
+        id: "untitled-22",
+        title: "Untitled",
+        description: {
+          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled22
+      },
       {
         id: "untitled-19",
         title: "Untitled",
@@ -430,7 +491,7 @@ export const collections: ArtCollection[] = [
     id: "darker-depths",
     title: "Darker Depths",
     pieces: [
-       {
+      {
         id: "untitled-13",
         title: "Untitled",
         description: {
@@ -559,7 +620,7 @@ export const collections: ArtCollection[] = [
     id: "dimensions",
     title: "Dimensions",
     pieces: [
-       {
+      {
         id: "untitled-10",
         title: "Untitled",
         description: {
@@ -715,6 +776,15 @@ export const collections: ArtCollection[] = [
     id: "form",
     title: "Form",
     pieces: [
+      {
+        id: "alchemical-explosion",
+        title: "Alchemical Explosion",
+        description: {
+          en: "41cm x 31cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "41cm x 31cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: alchemicalExplosion,
+      },
       {
         id: "seoul",
         title: "Seoul",
