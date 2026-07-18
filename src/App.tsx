@@ -8,13 +8,11 @@ import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
 import BackToTop from "./components/BackToTop";
 import ScrollToTop from "./components/ScrollToTop";
-import Banner from './components/Banner'
 import SubscribedConfirmation from "./pages/SubscribedConfirmation";
 
 export default function App() {
   return (
     <>
-      <Banner />
       <ScrollToTop />
       <Navbar />
       <Routes>

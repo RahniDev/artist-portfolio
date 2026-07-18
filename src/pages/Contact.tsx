@@ -36,6 +36,7 @@ return (
     <div className="contact-inner">
       <header className="contact-header">
         <h2>{t("contact.title")}</h2>
+        <p>{t("contact.description")}</p>
       </header>
 
       <form

@@ -1,13 +1,7 @@
 import type { ArtCollection } from "../types";
 
 import beforeBirth from "../assets/art/before-birth.webp";
-import structureMind from "../assets/art/structure-mind.webp";
-import forgiveRemember from "../assets/art/forgive-remember.webp";
-import ancestralSignificance from "../assets/art/ancestral-significance.webp";
-import accessSubconscious from "../assets/art/access-subconscious.webp";
-import tangledWool from "../assets/art/tangled-wool.webp";
 import trueOrFalse from "../assets/art/true-or-false.webp";
-import howManyLives from "../assets/art/how-many-lives.webp";
 import timeForMe from "../assets/art/time-for-me.webp";
 import diminishingFear from "../assets/art/diminishing-fear.webp";
 import rhythmSensation from "../assets/art/rhythm-sensation.webp";
@@ -32,10 +26,6 @@ import sittingForDays from "../assets/art/sitting-for-days.webp";
 import iCantReachYou from "../assets/art/i-cant-reach-you.webp";
 import fromWhere from "../assets/art/from-where.webp";
 import directional from "../assets/art/directional.webp";
-import aBusyCafe from "../assets/art/a-busy-cafe.webp";
-import immersion from "../assets/art/immersion.webp";
-import powerful from "../assets/art/powerful.webp";
-import findTheSource from "../assets/art/find-the-source.webp";
 import aboveOrBelow from "../assets/art/above-or-below.webp";
 import hauntingThoughts from "../assets/art/haunting-thoughts.webp";
 import amIReal from "../assets/art/am-i-real.webp";
@@ -76,7 +66,6 @@ import theDoorWasAlwaysOpen from '../assets/art/the-door-was-always-open.webp'
 import theScreen from '../assets/art/the-screen.webp'
 import softlyWhisperingToMe from '../assets/art/softly-whispering-to-me.webp'
 import sittingWithBreath from '../assets/art/sitting-with-breath.webp'
-import witnessingTheArchitectureMoveToTheLeft from '../assets/art/witnessing-the-architecture-move-to-the-left.webp'
 import tooIntenseForWords from '../assets/art/too-intense-for-words.webp'
 import paintYourselfAndShowMe from '../assets/art/paint-yourself-and-shows-me.webp'
 import selfPortrait from '../assets/art/form/self-portrait.webp'
@@ -178,15 +167,6 @@ export const collections: ArtCollection[] = [
     title: "Memory",
     pieces: [
       {
-        id: "witnessing-the-architecture-move-to-the-left",
-        title: "Witnessing the architecture move to the left",
-        description: {
-          en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
-          fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
-        },
-        image: witnessingTheArchitectureMoveToTheLeft
-      },
-      {
         id: "no-words",
         title: "No words",
         description: {
@@ -196,51 +176,6 @@ export const collections: ArtCollection[] = [
         image: noWords
       },
       {
-        id: "structure-of-the-mind",
-        title: "Structure of the mind",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: structureMind
-      },
-      {
-        id: "forgive-to-remember",
-        title: "Forgive to remember",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: forgiveRemember
-      },
-      {
-        id: "ancestral-significance",
-        title: "Ancestral Significance",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: ancestralSignificance
-      },
-      {
-        id: "access-the-subconscious",
-        title: "Access the Subconscious",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: accessSubconscious
-      },
-      {
-        id: "tangled-wool",
-        title: "Tangled Wool",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: tangledWool
-      },
-      {
         id: "true-or-false",
         title: "True or false",
         description: {
@@ -248,15 +183,6 @@ export const collections: ArtCollection[] = [
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: trueOrFalse
-      },
-      {
-        id: "how-many-lives",
-        title: "How many lives?",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: howManyLives
       },
       {
         id: "disappearing-and-reappearing",
@@ -300,42 +226,6 @@ export const collections: ArtCollection[] = [
         },
         image: untitled6
       },
-      {
-        id: "a-busy-cafe",
-        title: "A busy cafe",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: aBusyCafe
-      },
-      {
-        id: "immersion",
-        title: "Immersion",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: immersion
-      },
-      {
-        id: "powerful",
-        title: "Powerful",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: powerful
-      },
-      {
-        id: "find-the-source",
-        title: "Find the source",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: findTheSource
-      }
     ]
   },
   {
