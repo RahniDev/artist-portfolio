@@ -22,7 +22,7 @@ export default function Gallery() {
         {selectedCollection.title}
       </h2>
       <p className="series-text">
-        {lang.startsWith("fr") ? "La série" : "Series"}
+        {lang.startsWith("fr") ? "La collection" : " Collection"}
       </p>
 
       <div className="pieces-grid">

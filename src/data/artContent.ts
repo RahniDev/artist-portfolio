@@ -9,12 +9,8 @@ import tangledWool from "../assets/art/tangled-wool.webp";
 import trueOrFalse from "../assets/art/true-or-false.webp";
 import howManyLives from "../assets/art/how-many-lives.webp";
 import timeForMe from "../assets/art/time-for-me.webp";
-import outwardFrustration from "../assets/art/outward-frustration.webp";
 import diminishingFear from "../assets/art/diminishing-fear.webp";
-import unboxBuried from "../assets/art/unbox-buried.webp";
-import overwhelmingBeautiful from "../assets/art/overwhelming-beautiful.webp";
 import rhythmSensation from "../assets/art/rhythm-sensation.webp";
-import applesOranges from "../assets/art/apples-oranges.webp";
 import noWords from "../assets/art/no-words.webp";
 import stillnessEarth from "../assets/art/stillness-earth.webp";
 import theCaveSilence from "../assets/art/the-cave-of-silence.webp";
@@ -79,7 +75,6 @@ import neitherHereNorThere from '../assets/art/neither-here-nor-there.webp'
 import theDoorWasAlwaysOpen from '../assets/art/the-door-was-always-open.webp'
 import theScreen from '../assets/art/the-screen.webp'
 import softlyWhisperingToMe from '../assets/art/softly-whispering-to-me.webp'
-import embraceWhatComesThroughYou from '../assets/art/embrace-what-comes-through-you.webp'
 import sittingWithBreath from '../assets/art/sitting-with-breath.webp'
 import witnessingTheArchitectureMoveToTheLeft from '../assets/art/witnessing-the-architecture-move-to-the-left.webp'
 import tooIntenseForWords from '../assets/art/too-intense-for-words.webp'
@@ -88,38 +83,57 @@ import selfPortrait from '../assets/art/form/self-portrait.webp'
 import untitled1 from '../assets/art/form/untitled1.webp'
 import untitled2 from '../assets/art/untitled2.webp'
 import untitled3 from '../assets/art/form/untitled3.webp'
+import untitled4 from '../assets/art/form/untitled4.webp'
+import seoul from '../assets/art/form/seoul.webp'
+import hongKong from '../assets/art/form/hong-kong.webp'
+import tokyo from '../assets/art/form/tokyo.webp'
+import untitled5 from '../assets/art/form/untitled5.webp'
+import untitled6 from '../assets/art/untitled6.webp'
+import untitled7 from '../assets/art/untitled7.webp'
+import london from '../assets/art/form/london.webp'
+import untitled8 from '../assets/art/untitled8.webp'
+import untitled9 from '../assets/art/untitled9.webp'
 
 export const collections: ArtCollection[] = [
   {
-    id: "solitude",
-    title: "Solitude",
+    id: "reality",
+    title: "Reality",
     pieces: [
       {
-        id: "somewhere-else",
-        title: "Somewhere else",
+        id: "language-overuse",
+        title: "Language overuse",
         description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36 x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 50cm\r\n 100% linen canvas\r\n Mixed media",
+          fr: "61cm x 50cm\r\n Toile 100 % lin\r\n Médias mixtes"
         },
-        image: somewhereElse
+        image: languageOveruse
       },
       {
-        id: "no-words",
-        title: "No words",
+        id: "the-illusion-of-security",
+        title: "The Illusion of Security",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: noWords
+        image: illusionOfSecurity
       },
       {
         id: "stillness-of-the-earth",
         title: "Stillness of the Earth",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
         },
         image: stillnessEarth
+      },
+      {
+        id: "a-complex-machine",
+        title: "A complex machine",
+        description: {
+          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
+          fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées \r\n Acrylique"
+        },
+        image: aComplexMachine
       },
       {
         id: "the-cave-of-silence",
@@ -131,287 +145,32 @@ export const collections: ArtCollection[] = [
         image: theCaveSilence
       },
       {
-        id: "please-surround-me",
-        title: "Please surround me",
+        id: "here-for-a-brief-moment",
+        title: "Here for a brief moment",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic",
+          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique"
         },
-        image: pleaseSurroundMe
+        image: hereForABriefMoment
       },
       {
-        id: "I accept",
-        title: "I accept",
+        id: "unlearning",
+        title: "Unlearning",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
         },
-        image: iAccept
+        image: unlearning
       },
       {
-        id: "the-illusion-of-security",
-        title: "The Illusion of Security",
+        id: "accumulation-of-identities",
+        title: "Accumulation of Identities",
         description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
         },
-        image: illusionOfSecurity
-      },
-      {
-        id: "emerging-thoughts",
-        title: "Emerging Thoughts",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: emergingThoughts
-      },
-      {
-        id: "",
-        title: "Thoughts at midnight",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: thoughtsAtMidnight
+        image: accumulationOfIdentities
       }
-    ]
-  },
-  {
-    id: "dimensions",
-    title: "Dimensions",
-    pieces: [
-      {
-        id: "neither-here-nor-there",
-        title: "Neither here nor there",
-        description: {
-          en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
-          fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
-        },
-        image: neitherHereNorThere
-      },
-      {
-        id: "the-door-was-always-open",
-        title: "The door was always open",
-        description: {
-          en: "73cm x 116cm\r\n 100% linen canvas\r\n Acrylic",
-          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Acrylique"
-        },
-        image: theDoorWasAlwaysOpen
-      },
-      {
-        id: "the-screen",
-        title: "The screen",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: theScreen
-      },
-      {
-        id: "just-a-thought",
-        title: "Just a thought",
-        description: {
-          en: "50cm x 61cm\r\n 100% linen canvas\r\n Mixed media",
-          fr: "50cm x 61cm\r\n Toile 100 % lin \r\n Médias mixtes"
-        },
-        image: justAThought
-      },
-      {
-        id: "where-am-i",
-        title: "Where am I?",
-        description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: whereAmI
-      },
-      {
-        id: "the-void",
-        title: "The void",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: theVoid
-      },
-      {
-        id: "",
-        title: "Only one half belongs",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: onlyOneHalfBelongs
-      },
-      {
-        id: "",
-        title: "Consequences",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
-        },
-        image: consenquences
-      },
-      {
-        id: "",
-        title: "Enter if you dare",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: enterIfYouDare
-      },
-      {
-        id: "",
-        title: "Stop at each level",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: stopAtEachLevel
-      },
-      {
-        id: "no-access",
-        title: "No access",
-        description: {
-          en: "30cm x 42.5cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42.5cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: noAccess
-      },
-      {
-        id: "when-youre-ready",
-        title: "When you're ready",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and oil pastel",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et pastel"
-        },
-        image: whenYoureReady
-      },
-      {
-        id: "now-rest",
-        title: "Now rest",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: nowRest
-      },
-      {
-        id: "softly-vanishing",
-        title: "Softly vanishing",
-        description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: softlyVanishing
-      },
-      {
-        id: "ready-for-blast-off",
-        title: "Ready for blast off",
-        description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: readyForBlastOff
-      },
-    ]
-  },
-  {
-    id: "darker-depths",
-    title: "Darker Depths",
-    pieces: [
-      {
-        id: "courage-of-a-warrior",
-        title: "Courage of a warrior",
-        description: {
-          en: "92cm x 60cm\r\n 100% linen canvas\r\n Acrylic",
-          fr: "92cm x 60cm\r\n Toile 100 % lin\r\n Acrylique"
-        },
-        image: courageOfAWarrior
-      },
-      {
-        id: "too-intense-for-words",
-        title: "Too intense for words",
-        description: {
-          en: "73cm x 116cm\r\n 100% linen canvas \r\n Acrylic",
-          fr: "73cm x 116cm\r\n Toile 100 % lin \r\n Acrylique"
-        },
-        image: tooIntenseForWords
-      },
-      {
-        id: "too-deep-to-ever-return",
-        title: "Too deep to ever return",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and ink",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et encre"
-        },
-        image: tooDeepToEverReturn
-      },
-      {
-        id: "above-or-below",
-        title: "Above or below",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: aboveOrBelow
-      },
-      {
-        id: "haunting-thoughts",
-        title: "Haunting thoughts",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: hauntingThoughts
-      },
-      {
-        id: "am-i-real",
-        title: "Am I real?",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: amIReal
-      },
-      {
-        id: "endangered-silence",
-        title: "Endangered silence",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: endangeredSilence
-      },
-      {
-        id: "courage-of-the-shaken",
-        title: "Courage of the shaken",
-        description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: courageOfTheShaken
-      },
-      // {
-      //   id: "the-shadow",
-      //   title: "The shadow",
-      //   description: {
-      //     en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-      //     fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-      //   },
-      //   image: theShadow
-      // }
-      // {
-      //   id: "too-deep-to-ever-return",
-      //   title: "Too deep to ever return",
-      //   description: {
-      //     en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-      //     fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-      //   },
-      //   image: tooDeepToEverReturn
-      // }
     ]
   },
   {
@@ -428,22 +187,13 @@ export const collections: ArtCollection[] = [
         image: witnessingTheArchitectureMoveToTheLeft
       },
       {
-        id: "lurking",
-        title: "Lurking",
+        id: "no-words",
+        title: "No words",
         description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: lurking
-      },
-      {
-        id: "before-birth",
-        title: "Before birth",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: beforeBirth
+        image: noWords
       },
       {
         id: "structure-of-the-mind",
@@ -520,6 +270,168 @@ export const collections: ArtCollection[] = [
     ]
   },
   {
+    id: "vibration",
+    title: "Vibration",
+    pieces: [
+      {
+        id: "vast-vibrations-in-an-empty-room",
+        title: "Vast vibrations in an empty room",
+        description: {
+          en: "50cm x 61cm\r\n 100% linen canvas \r\n Mixed media",
+          fr: "50cm x 61cm\r\n Toile 100 % lin \r\n Médias mixtes"
+        },
+        image: vastVibrationsInAnEmptyRoom
+      },
+      {
+        id: "directional",
+        title: "Directional",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: directional
+      },
+      {
+        id: "untitled-6",
+        title: "Untitled",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled6
+      },
+      {
+        id: "a-busy-cafe",
+        title: "A busy cafe",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: aBusyCafe
+      },
+      {
+        id: "immersion",
+        title: "Immersion",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: immersion
+      },
+      {
+        id: "powerful",
+        title: "Powerful",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: powerful
+      },
+      {
+        id: "find-the-source",
+        title: "Find the source",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
+          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: findTheSource
+      }
+    ]
+  },
+  {
+    id: "solitude",
+    title: "Solitude",
+    pieces: [
+      {
+        id: "I accept",
+        title: "I accept",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: iAccept
+      },
+      {
+        id: "",
+        title: "Thoughts at midnight",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: thoughtsAtMidnight
+      }
+    ]
+  },
+  {
+    id: "thresholds",
+    title: "Thresholds",
+    pieces: [
+      {
+        id: "untitled-2",
+        title: "Untitled",
+        description: {
+          en: "41cm x 51cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "41cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled2
+      },
+      {
+        id: "emerging-thoughts",
+        title: "Emerging Thoughts",
+        description: {
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: emergingThoughts
+      },
+      {
+        id: "consequences",
+        title: "Consequences",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton premium paper\r\n Watercolour and gouache",
+          fr: "30cm x 42cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
+        },
+        image: consenquences
+      },
+      {
+        id: "the-dualistic-mind",
+        title: "The dualistic mind",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: theDualisticMind
+      },
+      {
+        id: "untitled-7",
+        title: "Untitled",
+        description: {
+          en: "51cm x 36cm\r\n100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled7
+      },
+      {
+        id: "before-birth",
+        title: "Before birth",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: beforeBirth
+      },
+      {
+        id: "softly-vanishing",
+        title: "Softly vanishing",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: softlyVanishing
+      },
+    ]
+  },
+  {
     id: "guidance",
     title: "Guidance",
     pieces: [
@@ -531,6 +443,15 @@ export const collections: ArtCollection[] = [
           fr: "30cm x 40cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
         },
         image: trustTheProcess
+      },
+      {
+        id: "please-surround-me",
+        title: "Please surround me",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: pleaseSurroundMe
       },
       {
         id: "softly-whispering-to-me",
@@ -576,126 +497,300 @@ export const collections: ArtCollection[] = [
           fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle"
         },
         image: fromWhere
-      }
+      },
+      {
+        id: "somewhere-else",
+        title: "Somewhere else",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36 x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: somewhereElse
+      },
     ]
   },
   {
-    id: "vibration",
-    title: "Vibration",
+    id: "darker-depths",
+    title: "Darker Depths",
     pieces: [
       {
-        id: "vast-vibrations-in-an-empty-room",
-        title: "Vast vibrations in an empty room",
-        description: {
-          en: "50cm x 61cm\r\n 100% linen canvas \r\n Mixed media",
-          fr: "50cm x 61cm\r\n Toile 100 % lin \r\n Médias mixtes"
-        },
-        image: vastVibrationsInAnEmptyRoom
-      },
-      {
-        id: "directional",
-        title: "Directional",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: directional
-      },
-      {
-        id: "a-busy-cafe",
-        title: "A busy cafe",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: aBusyCafe
-      },
-      {
-        id: "immersion",
-        title: "Immersion",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: immersion
-      },
-      {
-        id: "powerful",
-        title: "Powerful",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: powerful
-      },
-      {
-        id: "find-the-source",
-        title: "Find the source",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
-          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: findTheSource
-      }
-    ]
-  },
-  {
-    id: "reality",
-    title: "Reality",
-    pieces: [
-      {
-        id: "language-overuse",
-        title: "Language overuse",
-        description: {
-          en: "61cm x 50cm\r\n 100% linen canvas\r\n Mixed media",
-          fr: "61cm x 50cm\r\n Toile 100 % lin\r\n Médias mixtes"
-        },
-        image: languageOveruse
-      },
-      {
-        id: "a-complex-machine",
-        title: "A complex machine",
-        description: {
-          en: "40cm x 40cm\r\n Recycled canvas - made from 6 recycled plastic bottles\r\n Acrylic",
-          fr: "40cm x 40cm\r\nToile recyclée - fabriquée à partir de 6 bouteilles en plastique recyclées \r\n Acrylique"
-        },
-        image: aComplexMachine
-      },
-      {
-        id: "here-for-a-brief-moment",
-        title: "Here for a brief moment",
-        description: {
-          en: "55cm x 46cm\r\n 100% linen canvas\r\n Acrylic",
-          fr: "55cm x 46cm\r\n Toile 100 % lin\r\n Acrylique"
-        },
-        image: hereForABriefMoment
-      },
-      {
-        id: "unlearning",
-        title: "Unlearning",
-        description: {
-          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
-        },
-        image: unlearning
-      },
-      {
-        id: "the-dualistic-mind",
-        title: "The dualistic mind",
+        id: "untitled-9",
+        title: "Untitled",
         description: {
           en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
-        image: theDualisticMind
+        image: untitled9
       },
       {
-        id: "accumulation-of-identities",
-        title: "Accumulation of Identities",
+        id: "courage-of-a-warrior",
+        title: "Courage of a warrior",
         description: {
-          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
+          en: "92cm x 60cm\r\n 100% linen canvas\r\n Acrylic",
+          fr: "92cm x 60cm\r\n Toile 100 % lin\r\n Acrylique"
         },
-        image: accumulationOfIdentities
+        image: courageOfAWarrior
+      },
+      {
+        id: "too-intense-for-words",
+        title: "Too intense for words",
+        description: {
+          en: "73cm x 116cm\r\n 100% linen canvas \r\n Acrylic",
+          fr: "73cm x 116cm\r\n Toile 100 % lin \r\n Acrylique"
+        },
+        image: tooIntenseForWords
+      },
+      {
+        id: "too-deep-to-ever-return",
+        title: "Too deep to ever return",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and ink",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et encre"
+        },
+        image: tooDeepToEverReturn
+      },
+      {
+        id: "above-or-below",
+        title: "Above or below",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: aboveOrBelow
+      },
+      {
+        id: "haunting-thoughts",
+        title: "Haunting thoughts",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: hauntingThoughts
+      },
+      {
+        id: "am-i-real",
+        title: "Am I real?",
+        description: {
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: amIReal
+      },
+      {
+        id: "endangered-silence",
+        title: "Endangered silence",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: endangeredSilence
+      },
+      {
+        id: "courage-of-the-shaken",
+        title: "Courage of the shaken",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: courageOfTheShaken
+      },
+      // {
+      //   id: "the-shadow",
+      //   title: "The shadow",
+      //   description: {
+      //     en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+      //     fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+      //   },
+      //   image: theShadow
+      // }
+    ]
+  },
+  {
+    id: "the-unknown",
+    title: "The Unknown",
+    pieces: [
+      {
+        id: "untitled-8",
+        title: "Untitled",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled8
+      },
+      {
+        id: "waiting",
+        title: "Waiting",
+        description: {
+          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: waiting
+      },
+      {
+        id: "lurking",
+        title: "Lurking",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: lurking
+      },
+      {
+        id: "walking-through-the-desert",
+        title: "Walking through the desert",
+        description: {
+          en: "38cm x 46cm\r\n100% linen canvas\r\nAcrylic & fabric",
+          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique & tissu"
+        },
+        image: walkingThroughTheDesert
+      }
+    ]
+  },
+  {
+    id: "dimensions",
+    title: "Dimensions",
+    pieces: [
+      {
+        id: "neither-here-nor-there",
+        title: "Neither here nor there",
+        description: {
+          en: "40cm x 30cm\r\n 100% cotton premium paper\r\n Oil pastel",
+          fr: "40cm x 30cm\r\n Papier premium 100 % coton\r\n Pastel à l'huile"
+        },
+        image: neitherHereNorThere
+      },
+      {
+        id: "the-door-was-always-open",
+        title: "The door was always open",
+        description: {
+          en: "73cm x 116cm\r\n 100% linen canvas\r\n Acrylic",
+          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Acrylique"
+        },
+        image: theDoorWasAlwaysOpen
+      },
+      {
+        id: "the-screen",
+        title: "The screen",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: theScreen
+      },
+      {
+        id: "just-a-thought",
+        title: "Just a thought",
+        description: {
+          en: "50cm x 61cm\r\n 100% linen canvas\r\n Mixed media",
+          fr: "50cm x 61cm\r\n Toile 100 % lin \r\n Médias mixtes"
+        },
+        image: justAThought
+      },
+      {
+        id: "the-void",
+        title: "The void",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: theVoid
+      },
+      {
+        id: "only-one-half-belongs",
+        title: "Only one half belongs",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
+          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: onlyOneHalfBelongs
+      },
+      {
+        id: "enter-if-you-dare",
+        title: "Enter if you dare",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: enterIfYouDare
+      },
+      {
+        id: "",
+        title: "Stop at each level",
+        description: {
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
+          fr: "30cm x 42cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: stopAtEachLevel
+      },
+      {
+        id: "no-access",
+        title: "No access",
+        description: {
+          en: "30cm x 42.5cm\r\n 100% cotton Arches paper\r\n Watercolour and other media",
+          fr: "30cm x 42.5cm\r\n Papier Arches 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: noAccess
+      },
+      {
+        id: "when-youre-ready",
+        title: "When you're ready",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and oil pastel",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et pastel"
+        },
+        image: whenYoureReady
+      },
+      {
+        id: "now-rest",
+        title: "Now rest",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: nowRest
+      },
+    ]
+  },
+  {
+    id: "truth",
+    title: "Truth",
+    pieces: [
+      {
+        id: "where-am-i",
+        title: "Where am I?",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: whereAmI
+      },
+      {
+        id: "ready-for-blast-off",
+        title: "Ready for blast off",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: readyForBlastOff
+      },
+      {
+        id: "paint-yourself-and-show-me",
+        title: "Paint yourself and show me",
+        description: {
+          en: "73cm x 116cm \r\n100% linen canvas\r\n Mixed media",
+          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Médias mixtes"
+        },
+        image: paintYourselfAndShowMe
+      },
+      {
+        id: "live-like-a-human",
+        title: "Live like a human",
+        description: {
+          en: "50cm x 61cm \r\n100% linen canvas\r\n Mixed media & handmade paper",
+          fr: "50cm x 61cm\r\n Toile 100 % lin\r\n Médias mixtes et papier fait main"
+        },
+        image: liveLikeAHuman
       }
     ]
   },
@@ -704,24 +799,6 @@ export const collections: ArtCollection[] = [
     title: "Emotions",
     pieces: [
       {
-        id: "embrace-what-comes-through-you",
-        title: "Embrace what comes through you",
-        description: {
-          en: "30cm x 40cm\r\n 100% cotton premium paper\r\n Mixed media",
-          fr: "30cm x 40cm\r\n Papier premium 100 % coton\r\n Médias mixtes"
-        },
-        image: embraceWhatComesThroughYou
-      },
-      {
-        id: "sitting-with-breath",
-        title: "Sitting with breath",
-        description: {
-          en: "61cm x 46cm\r\n 100% cotton Arches paper\r\n Mixed media",
-          fr: "61cm x 46cm\r\n Papier Arches 100 % coton\r\n Médias mixtes"
-        },
-        image: sittingWithBreath
-      },
-      {
         id: "filled-to-the-max",
         title: "Filled to the max",
         description: {
@@ -729,51 +806,6 @@ export const collections: ArtCollection[] = [
           fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique, papier de chanvre à fibres longues et tissu"
         },
         image: filledToTheMax
-      },
-      {
-        id: "time-for-me",
-        title: "Time for me",
-        description: {
-          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and other media",
-          fr: "30cm x 42cm\r\nPapier Arches 100 % coton\r\nAquarelle et autres médiums"
-        },
-        image: timeForMe
-      },
-      {
-        id: "outward-frustration",
-        title: "Outward frustration",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: outwardFrustration
-      },
-      {
-        id: "fear-is-diminishing",
-        title: "Fear is diminishing",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
-        },
-        image: diminishingFear
-      },
-      {
-        id: "unbox-the-buried",
-        title: "Unbox the Buried",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: unboxBuried
-      },
-      {
-        id: "overwhelming-yet-beautiful",
-        title: "Overwhelming yet beautiful",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: overwhelmingBeautiful
       },
       {
         id: "the-rhythm-of-sensation",
@@ -785,15 +817,6 @@ export const collections: ArtCollection[] = [
         image: rhythmSensation
       },
       {
-        id: "apples-or-oranges",
-        title: "Apples or oranges",
-        description: {
-          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: applesOranges
-      },
-      {
         id: "why-so-many-times",
         title: "Why so many times?",
         description: {
@@ -802,6 +825,12 @@ export const collections: ArtCollection[] = [
         },
         image: whySoManyTimes
       },
+    ]
+  },
+  {
+    id: "space",
+    title: "Space",
+    pieces: [
     ]
   },
   {
@@ -834,6 +863,15 @@ export const collections: ArtCollection[] = [
           fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: innerChild
+      },
+      {
+        id: "sitting-with-breath",
+        title: "Sitting with breath",
+        description: {
+          en: "61cm x 46cm\r\n 100% cotton Arches paper\r\n Mixed media",
+          fr: "61cm x 46cm\r\n Papier Arches 100 % coton\r\n Médias mixtes"
+        },
+        image: sittingWithBreath
       },
       {
         id: "play",
@@ -874,57 +912,72 @@ export const collections: ArtCollection[] = [
     ]
   },
   {
-    id: "truth",
-    title: "Truth",
-    pieces: [
-      {
-        id: "paint-yourself-and-show-me",
-        title: "Paint yourself and show me",
-        description: {
-          en: "73cm x 116cm \r\n100% linen canvas\r\n Mixed media",
-          fr: "73cm x 116cm\r\n Toile 100 % lin\r\n Médias mixtes"
-        },
-        image: paintYourselfAndShowMe
-      },
-      {
-        id: "live-like-a-human",
-        title: "Live like a human",
-        description: {
-          en: "50cm x 61cm \r\n100% linen canvas\r\n Mixed media & handmade paper",
-          fr: "50cm x 61cm\r\n Toile 100 % lin\r\n Médias mixtes et papier fait main"
-        },
-        image: liveLikeAHuman
-      }
-    ]
-  },
-  {
-    id: "the-unknown",
-    title: "The Unknown",
-    pieces: [
-      {
-        id: "waiting",
-        title: "Waiting",
-        description: {
-          en: "36cm x 26cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "36cm x 26cm\r\n Papier premium 100 % coton\r\n Aquarelle"
-        },
-        image: waiting
-      },
-      {
-        id: "walking-through-the-desert",
-        title: "Walking through the desert",
-        description: {
-          en: "38cm x 46cm\r\n100% linen canvas\r\nAcrylic & fabric",
-          fr: "38cm x 46cm\r\n Toile 100 % lin\r\n Acrylique & tissu"
-        },
-        image: walkingThroughTheDesert
-      }
-    ]
-  },
-  {
     id: "form",
     title: "Form",
     pieces: [
+      {
+        id: "seoul",
+        title: "Seoul",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: seoul
+      },
+      {
+        id: "hong-kong",
+        title: "Hong Kong",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: hongKong
+      },
+      {
+        id: "tokyo",
+        title: "Tokyo",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: tokyo
+      },
+      {
+        id: "london",
+        title: "London",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: london
+      },
+      {
+        id: "untitled-5",
+        title: "Untitled",
+        description: {
+          en: "36cm x 51cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "36cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+        },
+        image: untitled5
+      },
+      {
+        id: "untitled-4",
+        title: "Untitled",
+        description: {
+          en: "51cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and gouache",
+          fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et gouache"
+        },
+        image: untitled4
+      },
+      {
+        id: "fear-is-diminishing",
+        title: "Fear is diminishing",
+        description: {
+          en: "26cm x 36cm\r\n 100% cotton premium paper\r\n Watercolour and other media",
+          fr: "26cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle et autres médiums"
+        },
+        image: diminishingFear
+      },
       {
         id: "self-portrait",
         title: "Self-Portrait",
@@ -960,21 +1013,15 @@ export const collections: ArtCollection[] = [
           fr: "51cm x 36cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled3
-      }
-    ]
-  },
-  {
-    id: "thresholds",
-    title: "Thresholds",
-    pieces: [
+      },
       {
-        id: "untitled-2",
-        title: "Untitled",
+        id: "time-for-me",
+        title: "Time for me",
         description: {
-          en: "41cm x 51cm\r\n100% cotton premium paper\r\n Watercolour",
-          fr: "41cm x 51cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "30cm x 42cm\r\n 100% cotton Arches paper\r\nWatercolour and other media",
+          fr: "30cm x 42cm\r\nPapier Arches 100 % coton\r\nAquarelle et autres médiums"
         },
-        image: untitled2
+        image: timeForMe
       }
     ]
   }
