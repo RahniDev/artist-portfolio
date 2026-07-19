@@ -167,8 +167,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-11",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled11
       },
@@ -176,8 +176,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-12",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled12
       },
@@ -278,8 +278,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-15",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "46cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled15
       },
@@ -449,8 +449,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-13",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "46cm x 61cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "46cm x 61cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled13
       },
@@ -596,8 +596,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-10",
         title: "Untitled",
         description: {
-          en: "61cm x 41cm\r\n 100% cotton premium paper\r\n Watercolour",
-          fr: "61cm x 41cm\r\n Papier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm\r\n 100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\n Papier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled10
       },
@@ -704,8 +704,8 @@ export const collections: ArtCollection[] = [
         id: "untitled-34",
         title: "Untitled",
         description: {
-          en: "51cm x 41cm \r\n100% cotton premium paper\r\n Watercolour",
-          fr: "51cm x 41cm\r\nPapier premium 100 % coton\r\n Aquarelle"
+          en: "61cm x 46cm \r\n100% cotton premium paper\r\n Watercolour",
+          fr: "61cm x 46cm\r\nPapier premium 100 % coton\r\n Aquarelle"
         },
         image: untitled34
       },
